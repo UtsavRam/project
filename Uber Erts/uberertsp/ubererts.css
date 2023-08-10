@@ -1,0 +1,552 @@
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+/* uber img */
+
+.uberimg
+{
+    height: 700px;
+    width: 100%;
+    background-image: url(../image/uberbg.png);
+    background-size: cover;  
+      
+}
+
+header
+{
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+
+
+/* menu and uber */
+.menu
+{
+    
+    height: 100px;
+    width: 60%;
+    display: flex;
+    line-height: 50px;
+}
+
+.fa-solid
+{
+    margin-top: 33px;
+    margin-left: 80px;
+}
+.ubersize
+{
+    font-size: 1.9rem;
+    margin-top: 15px;
+    font-weight: 900;
+}
+
+
+.Iniciarsesion
+{
+    
+    height: 100px;
+    width: 20%;
+   
+    
+}
+
+.button
+{
+  height: 60px;  
+  width: 100px;
+  border-radius: 25px;
+  margin-top: 20px;
+  margin-left: 180px;
+  
+
+} 
+
+.button2
+{
+  height: 60px;  
+  width: 100px;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  margin-left: 39px;
+
+} 
+
+
+.Registrarse
+{
+    
+    height: 100px;
+    width: 20%; 
+    display: flex;  
+}
+
+
+/* new text */
+
+.order
+{
+    height: 100px;
+    width: 100%;
+    margin-top: 80px;
+    font-size: 3.7rem;
+    margin-left: 50px ;
+    font-family:UberMoveText, sans-serif; 
+}
+
+/* sarch bar */
+
+.sarch
+{
+    height: 57px;
+    width: 50%;
+    background-color: white;
+    margin-left: 50px;
+    display: inline-block;
+    border-radius: 5px;
+
+}
+
+.icon 
+{
+   
+   height: 50px;
+   width: 10%;
+   font-size: 1.9rem;
+   margin-top: -85px;
+   margin-left: -9px;
+   line-height: 50%;
+}
+
+.add 
+{
+    margin-top: 200px;
+    /* margin: 50px auto; */
+    height: 40px;
+    width: 550px;
+    margin-left: 110px;
+    margin-top: -20px;
+    border: none;
+}
+
+/* optction */
+
+.deliver
+{
+    margin-left: 325px;
+    height: 55px;
+    font-size: 1.1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    border-radius: 10px;
+}
+
+.find 
+{
+    margin-left: 900px;
+    height: 55px;
+    width: 150px;
+    font-size: 1.1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin-top: -50px;
+    background-color: black;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* sing in  */
+
+a
+{
+    color: black;
+    display: flex;
+}
+
+.sing
+{
+    display: inline-block;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 1.3rem;
+}
+
+/* three img */
+
+.threeimg
+{
+    border: 20px solid white;
+    height: 300px;
+   width: 100%;
+    display: flex;
+}
+
+
+.imgone
+{
+    background-image: url(../image/saynij.png);
+    background-size: cover;
+    border: 20px solid white;
+    height: 300px;
+   width: 33.33%;
+}
+
+.imagtwo
+{
+    background-image: url(../image/khana.png);
+    background-size: cover;
+    border: 20px solid white;
+    height: 300px;
+    width: 33.33%;
+}
+
+.imgthree
+{
+    background-image: url(../image/bicicale.png);
+    background-size: cover;
+    border: 20px solid white;
+    height: 300px;
+    width: 33.33%;
+}
+
+/* three img na text  */
+
+.threetext
+{
+
+    height: 100px;
+    width: 100%;
+    display: flex;
+    
+}
+
+
+
+.onetext
+{
+    
+    height: 100px;
+    width: 33.33%;
+    line-height: 15px;
+    margin-left: 34px;
+    margin-top: 20px;
+
+}
+.t1
+{
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    line-height: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.twotext
+{
+
+    height: 100px;
+    width: 33.33%;
+    line-height: 15px;
+    margin-top: 20px;
+  
+}
+.t2 
+{
+   font-weight: 900;
+   font-size: 1.5rem;
+   font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+/* caretme text */
+
+.neverme
+{
+    
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+ 
+.criate
+{
+    
+    height: 100px;
+    width: 80%;
+    font-weight: 900;
+    line-height: 80px;
+    margin-left: 30px;
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    
+}
+.view
+{
+   
+    height: 100px;
+    width: 20%;
+    font-weight: 600;
+    margin-top: 34px;
+    margin-left: 30px;
+    font-size: 1.1rem;
+}
+
+
+/* img map */
+
+.map
+{
+    height: 500px;
+    width: 100%;
+    background-image: url(../image/map.png);
+    background-size: cover;
+}
+
+/* five div devited */
+
+.devited
+{
+ 
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+.fast
+{
+
+    height: 400px;
+    width: 23.75%;
+    line-height: 60px;
+    margin-left: 60px;
+}
+.seconde
+{
+
+    height: 400px;
+    width: 23.75%;
+    height: 400px;
+    width: 20%;
+    line-height: 60px;
+
+}
+.thard
+{
+    height: 400px;
+    width: 23.75%;
+    height: 400px;
+    width: 20%;
+    line-height: 60px;
+
+}
+.fur
+{
+    height: 400px;
+    width: 23.75%;
+    height: 400px;
+    width: 20%;
+    line-height: 60px;
+
+}
+.five
+{
+   
+    height: 400px;
+    width: 5%;
+}
+
+/* text and a */
+
+.Countries
+{
+   
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+
+.width
+{
+    height: 60px;
+    width:80%;
+    line-height: 89px;
+}
+.widthh
+{
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.view
+{
+    height: 60px;
+    width:20%; 
+    line-height: 10px;
+}
+.vieww
+{
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ /* six div bettven */
+
+.devited
+{
+ 
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+.fast
+{
+
+    height: 400px;
+    width: 23.75%;
+    line-height: 60px;
+    margin-left: 60px;
+}
+.seconde
+{
+
+    height: 400px;
+    width: 23.75%;
+    height: 400px;
+    width: 20%;
+    line-height: 60px;
+
+}
+.thard
+{
+    height: 400px;
+    width: 23.75%;
+    height: 400px;
+    width: 20%;
+    line-height: 60px;
+
+}
+.fur
+{
+    height: 400px;
+    width: 23.75%;
+    height: 400px;
+    width: 20%;
+    line-height: 60px;
+
+}
+.five
+{
+   
+    height: 400px;
+    width: 5%;
+}
+
+
+/* play store rank for a app */
+
+.mandiv
+{
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+.appstore
+{
+    height: 400px;
+    width: 50%;
+}
+.uberr
+{
+    height: 50px;
+    width: 400px;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-top: 90px;
+    margin-left: 66px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.appstore
+{
+   margin-left: 40px;
+
+}
+.gooleplay
+{
+    margin-top: -400px;
+    margin-left: 270px;
+}
+
+.help
+{
+    height: 400px;
+    width: 25%;
+    line-height: 60px;
+    margin-left: 100px;
+}
+
+.english
+{
+    height: 400px;
+    width: 25%;
+    line-height: 60px;
+}
+
+/* futer */
+
+.futer
+{
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+.iconn
+{
+    margin-top: 0px;
+    height: 50px;
+    width: 30%;
+    margin-left: 20px;
+    line-height: 50px;
+}
+.privacy
+{
+    height: 50px;
+    width: 50%;
+    display: flex;
+    line-height: 50px;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+
+
+/* last div  */
+
+.lastdiv
+{
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+.serviceapply
+{
+    height: 50px;
+    width: 70%;
+    display: flex;
+    margin-left: 500px;
+    text-align: end;
+    line-height: 50px;
+}
+
+.last
+{
+    height: 30px;
+    width: 30%;
+    line-height: 50px;
+}

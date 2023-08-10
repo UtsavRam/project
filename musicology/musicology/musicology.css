@@ -1,0 +1,467 @@
+ 
+   /* univarsle */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header
+{  
+  width: 1263px;
+ padding-bottom: 10px;
+background-color: #303030;
+display: flex;
+}
+
+/* img music */
+
+.music
+{
+  background-image: url(../image/musicc.png);
+  background-size: cover;
+  width: 115px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+/* home bar */
+
+
+nav ul li 
+{
+  display: inline-block ;
+  padding: 20px;
+  padding-left: 100px;
+  color: white;
+  margin-top: 20px;
+}
+
+/* search icon */
+
+.serach
+{
+  margin-top: 35px;
+  margin-left: 100px;
+  font-size: 25px;
+}
+
+/*.........................................box 1........................................ */
+
+
+.bacgroundimg
+{
+  background-image: url(../image/desiboy.svg) ;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+}
+
+.title
+{
+  font-size: 90px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Oswald";
+padding: 50px;
+padding-top: 100px;
+}
+
+.lorem
+{
+  font-size: 20px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+padding-bottom: 20px;
+margin-left: 30px;
+}
+
+.minibox
+{
+  width: 190px;
+border-radius: 4px;
+background-color: #e8631c;
+font-size: 20px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 400;
+font-family: "Oswald";
+line-height: 40px;
+padding-top: 3px;
+text-align: center;
+margin-left: 50px;
+}
+
+/*.........................................box 2........................................ */
+
+
+#section
+{
+  background-color: #ff5900;
+}
+.container
+{
+  width: 90%;
+  margin: 0 auto;
+}
+h2
+{
+  font-size: 55px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Oswald";
+  text-align: center;
+  padding-top: 30px;
+}
+h2 + p
+{
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Oswald";
+  text-align: center;
+  padding: 20px 260px 50px;  
+  margin:0px 50px ;
+}
+.main-text
+{
+  padding: 0px 5px;
+}
+.row
+{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap: 50px;
+ padding-bottom: 80px;
+ margin-left: -35px;
+}
+.col-33
+{
+  width: 33.33%;
+  background-color: #303030;
+
+}
+.img
+{
+  width: 100%;
+}
+h3
+{
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "oswald";
+  text-align: center;
+}
+h3+p
+{
+  padding: 10px 50px;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Oswald";
+  text-align: center;
+}
+
+/*.........................................box 3........................................ */
+
+
+.section-1
+{
+  padding-bottom: 100px;
+  width: 100%;
+  background-color: #303030;
+  
+}
+.text-1
+{
+  width: 100%;
+  
+}
+.h2
+{
+  text-align: center;
+}
+.p-1  
+{
+  padding: 20px 100px 50px; 
+  font-size: 40px;  
+}
+.img-1
+{
+background-color: #e8631c;
+  padding-bottom: 50px;
+  width: 250px;
+}
+.img-11
+{
+  margin-top: 20px;
+  padding-left: 65px;
+  
+}
+.h3-1
+{
+
+  padding: 10px;
+}
+.p-2
+{
+  
+  padding: 10px 30px;
+}
+
+.img-0{
+  padding-left: 100px;
+  padding-top: 50px;
+  display: flex;
+  gap: 70px;
+}
+.image-one{
+  padding-left: 50px;
+  width: 190px;
+}
+.button-01
+{
+  background-image: url(../image/Shape.png);
+  background-size: cover;
+  height: 35px;
+  width: 150px;
+  margin-left: 50px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+/*.........................................box 4........................................ */
+
+.heroimg
+{
+  width: 100%;
+  display: flex;
+}
+.hero 
+{
+  width: 50%;
+  background: url(../image/hero.png) repeat no-repeat center center/cover;
+}
+.loremtext
+{
+  padding-bottom: 100px;
+  width: 50%;
+  background-color: #ff5900;
+  padding-top: 100px
+}
+.heading
+{
+font-size: 55px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Oswald";
+padding-top: 100px;
+}
+.prom
+{
+/* height: 210px; */
+font-size: 30px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+padding: 50px 1px 0px;
+}
+
+.box-1
+{
+  background-image: url(../image/Shape.png);
+  background-size: cover;
+  width: 230px;
+  margin-left: 100px;
+  color: white;
+  text-align: center;
+  padding: 9px;
+   padding-top: 10px;
+   margin-top: 20px;
+   margin-left: 190px;
+}
+
+/*.........................................box 5........................................ */
+
+.hero-2
+{
+  /* height: 700px; */
+  width: 50%;
+  background: url(../image/hero2.svg) repeat no-repeat center center/cover;
+
+}
+
+/*.........................................box 6........................................ */
+
+.minidiv
+{
+  padding-bottom: 100px;
+  width: 100%;
+  background-color: #303030;
+}
+.elit
+{
+  padding: 50px 100px;
+  font-size: 2.7rem;
+}
+.our
+{
+  padding-top:100px;
+}
+.center-1
+{
+  display: flex;
+  padding-left: 100px;
+  
+}
+.bara
+{
+  color: white;
+  font-size: 3rem;
+  padding:50px 0px 0px 100px;
+  font-weight: 500;
+}
+.club-2
+{
+  color: white;
+  font-size: 1.9rem;
+  padding:0px 0px 0px 100px;
+}
+/*.........................................box 7........................................ */
+.colordiv
+{
+  background: url(../image/color.png);
+  /* padding-bottom: 190px; */
+  /* width: 900px; */
+  padding-bottom: 100px;
+}
+.lorem-5
+{
+  color: white;
+  font-size: 3rem;
+  display: flex;
+ padding-left: 100px;
+ padding-top: 100px;
+ padding: 0px 100px;
+ 
+
+}
+.colorimg{
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+.simon
+{
+  padding: 30PX;
+   font-size: 3rem;
+   color: white;
+   padding-right: 100px;
+}
+.simon-1
+{
+  padding-right: 100px;
+}
+/*.........................................box 8........................................ */
+.box-8
+{
+  background-color:#e8631c;
+  padding-bottom: 90px;
+}
+.input-1 
+{
+  display: flex;
+  padding-left: 100px;
+}
+.SUBSCRIBE
+{
+  padding-top: 100px;
+}
+.dolor
+{
+  font-size: 39px;
+  padding: 30px 100px;
+}
+.input
+{
+  width: 350px;
+  padding-left: 10px;
+  line-height: 30px;
+  margin-left: 100px;
+  padding-top: 5px;
+  width: 500px;
+}
+.boxs
+{
+  background-color: black;
+  color: white;
+  line-height: 35px; 
+  padding-left: 30px;
+  padding-right: 30px;
+}
+/*.........................................box 9........................................ */
+.lastdiv
+{
+  display: flex;
+  background-color: #303030;
+  color: white;
+  padding-bottom: 40px;
+}
+.icon
+{
+  padding-left: 100px;
+}
+.Musicology
+{
+  
+  padding-top: 80px;
+   font-size: 1.5rem;
+   font-weight: 900;
+}
+.lorem-9
+{
+  padding-top: 20px;
+}
+.icon-1
+{
+  display: flex;
+}
+.icon-4
+{
+  padding-top: 20px;
+  font-size: 1.5rem;
+}
+.about
+{
+  text-align: center;
+  padding-top: 80px;
+  padding-left: 100px;
+}
+.about-2
+{
+  font-size: 1.5rem;
+}
+.none
+{
+  padding: 20px;
+  line-height: 30px;
+}
+.servies
+{
+  text-align: center;
+  padding-top: 80px;
+  padding-left: 30PX;
+}
+.other
+{
+  text-align: center;
+  padding-top: 80px;
+  padding-left: 30px;
+}

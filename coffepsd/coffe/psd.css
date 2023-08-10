@@ -1,0 +1,869 @@
+/* ........................................headear..................................... */
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;  
+}
+body
+{
+    background-color: white;
+}
+.header  
+{
+    background-image: url(../image/Shape\ \(2\).png);
+    background-position: center;
+    background-color: #b13941;
+    justify-content: center;
+}
+.contenar 
+{
+  padding: 10px;
+}
+a
+{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+ul , li
+{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+    transition: 0s;
+}
+.li5{
+    display: none;
+}
+.x
+{
+    width: 0px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transition: 1s;
+}
+ul .li1:hover .x
+{
+    width: 100%;
+    transition: 1s;
+}
+.logoo img
+{
+    transition: all ease 0.5s;
+}
+.logoo:hover img
+{
+    scale: 1.1;
+}
+
+/* ........................................box1..................................... */
+.banaer
+{
+   background: url(../image/box1.png) repeat no-repeat center center/cover;
+}
+.maintext
+{
+    text-align: center;
+    padding: 10px 100px;
+    color: aliceblue;
+    padding: 50px;
+}
+h1
+{
+    color: #feedda;
+    padding: 55px;
+    font-weight: 600;
+    font-size: 50px;
+}
+.p-1
+{
+font-size: 21px;
+line-height: 33px;
+color: #fefefe;
+font-weight: 400;
+font-family: "PT Serif";
+padding: 0px 100px;
+}
+ .b1
+{
+    color: white;
+    background-color: #b13941;
+    border: 0;
+    width: 12vw;
+    padding: 0.9vw;
+    outline: 2px solid #b13941;
+    outline-offset: 0px;
+    margin-top: 25px;
+    border: none;
+    transition: 0.3s;
+}
+.b1:hover
+{
+    outline-offset: 6px;
+    transition: 0.3s;
+}
+/* ........................................box2..................................... */
+.box2
+{
+    background-color: #b13941;
+    background-image: url(../image/Shape\ \(2\).png);
+    background-position: center;
+    width: 100%;
+    display: flex;
+    color: #fefefe;
+}
+.banaer-1
+{
+    padding-top: 80px;
+    padding-left: 100px;
+    width: 350px;
+}
+.img-1
+{
+    width: 200px;
+    transition: all ease 0.5s;
+}
+.img-1:hover
+{
+    scale: 1.1;
+}
+.maintext-2
+{
+    width: 900px;
+    margin-left: 100px;
+}
+.p-2
+{
+  margin-top: 100px;  
+  padding: 5px;
+  font-size: 25px;
+}
+.p-3
+{
+    padding: 5px;
+    font-size: 40px;
+}
+.p-4
+{
+    padding: 5px;
+    font-size: 15px;
+}
+.button-2
+{
+    background-color: rgb(245, 242, 219);
+    color:#b13941;
+    margin-top: 1vw;
+    line-height: 30px;
+    width: 20%;
+   margin-bottom: 70px;
+   border: none;
+   padding: 0.3vw;
+   outline: 3px solid rgb(245, 242, 219);
+   outline-offset: 0s;
+   transition: 0.3s;
+}
+.button-2:hover
+{
+    outline-offset: 6px ;
+    transition: 0.3s;
+}
+/* ........................................box3..................................... */
+.box3
+{
+       width: 100%;
+       display: flex;
+}
+.banare-2
+{
+    background-image: url(../image/cap.png);
+    background-size: cover;
+    width: 45%;
+}
+.maintext-3
+{
+    width: 55%;
+    padding-left: 55px;
+    padding-top: 100px;
+    background-color: #f8eed3;
+}
+.h2
+{
+   padding: 50px;
+   font-size: 50px;
+   margin-left: 40px;
+}
+.p-5
+{
+    font-size: 15px;
+    padding: 0px 100px;
+   
+}
+.a-01
+{
+    color: red;
+    font-size: 15px;
+    text-decoration: underline;
+    line-height: 130px;
+    margin-left: 110px;
+}
+/* ........................................box4..................................... */
+.box4
+{
+    background-color: #b13941;
+    padding-bottom: 100px;
+   
+}
+.maintext-4
+{
+    text-align: center;
+}
+.h2-4
+{
+    padding-top: 30px;
+    font-size: 60px;
+    color: #fefefe;
+}
+.p-6
+{
+    font-size: 29px;
+    padding: 20px 100px;
+    color: #feedda;
+}
+
+.allimg
+{
+    display: flex;
+    width: 100%;
+    gap: 3vw;
+}
+.banare-4
+{
+    padding-top: 30px;
+}
+.maintext-04
+{
+    padding-bottom: 45px;
+    background-color: #fefefe;
+    width: 177px;
+}
+.mainimg
+{
+    display: flex;
+}
+ .img01
+{
+    transition: all ease 0.5s;
+}
+.img01:hover
+{
+    scale: 1.1;
+}
+.mainimg1
+{
+    display: flex;
+    margin-left: 2vw;
+}
+.P-7
+{
+    font-size: 10px;
+    margin-left: 18px;
+    padding-top: 12px;
+    text-align: start;
+}
+.button-4
+{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18px;
+    border: none;
+    padding: 0.5vw;
+    background-color: #b13941;
+   margin-top: 2.2vw;
+   width: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   overflow: hidden;
+}
+.a
+{
+    border: none;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+   display: flex;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   justify-content: center;
+   align-items: center;
+   top: 100%;
+   transition: 1s;
+}
+.button-4:hover .a
+{
+    top: 0;
+    transition: 1s;
+}
+.h2-04
+{
+    padding-top: 60px;
+    margin-left: 18px;
+}
+/* ........................................box5..................................... */
+.box5
+{
+    background-color:#f8eed3;
+    text-align: center; 
+
+}
+.h2-5
+{
+    padding-top: 70px;
+    font-size: 40px;
+    color: #b13941;
+}
+.p-8
+{
+    font-size: 29px;
+    padding: 20px 100px;
+    color: #b13941;
+}
+.allimg-5
+{
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+}
+.img-5
+{
+    position: relative;
+    margin-left: 85px;
+}
+.text-5
+{
+   border: 12px solid white;
+    width: 100.33%;
+   background-color: #fefefe;
+   padding-bottom: 30px;
+}
+.p-9
+{
+    font-size: 22px;
+   padding-top: 50px;
+}
+.button-5
+{
+    position: relative;
+   background-color: #b13941;
+   color:#f8eed3;
+   display: block;
+   margin-top: 5vw ;
+   margin-left: 8vw;
+   padding: 1vw ;
+   width: 9vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+}
+.a1
+{
+    background-color: #000000;
+    color:#f8eed3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    transition: 0.7s;
+    cursor: pointer;
+}
+.button-5:hover .a1
+{
+    top: 0;
+    transition: 0.5s;
+}
+.box-5
+{
+    position: absolute;
+    right: 0%;
+   margin-top: -25px;
+    background-color:#f8eed3;
+    color: #b13941;
+    font-size: 15px;
+    line-height: 30px;
+    width: 150px;
+    margin-right: 150px;
+}
+.border
+{
+    border: 2px solid red;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    outline:2px solid red;
+    outline-offset: 0px;
+    transition: 0.3s;
+    cursor:pointer;
+}
+.border:hover
+{
+    outline-offset: 15px;
+    transition: 0.3s;
+}
+.box-05
+{
+    position: absolute;
+    right: 0%;
+   margin-top: -25px;
+    background-color:#f8eed3;
+    color: #b13941;
+    font-size: 15px;
+    line-height: 30px;
+    width: 150px;
+    margin-right: 100px;
+}
+.img-05
+{
+    margin-bottom: 50px;
+    display:block;
+}
+.box-005
+{
+    position: absolute;
+   margin-top: -25px;
+   background-color:#f8eed3;
+    color: #b13941;
+    font-size: 15px;
+    line-height: 30px;
+    width: 150px;
+    margin-left: 90px;
+}
+/* ........................................box6..................................... */
+.box6
+{
+    background-image: url(../image/Shape\ \(2\).png);
+    background-position: center;
+    background-color: #b13941;
+    width: 100%;
+    padding-bottom: 70px;
+    display: flex;
+}
+.video
+{
+    padding-top: 100px;
+    width: 50%;
+    justify-content: center;
+}
+.maintext-6
+{
+    width: 50%;
+}
+.h2-6
+{
+    padding-top: 100px;
+    font-size: 70px;
+    color:#f8eed3;
+}
+.p-10
+{
+    font-size: 20px;
+    text-align: start;
+    color: #feedda;
+    margin-top: 30px;
+    padding-left: 70px;
+}
+.icon-f-w
+{
+    padding-top: 30px;
+    font-size: 30px;
+    margin-right: 390px;
+}
+/* ........................................box7..................................... */
+.box7
+{
+    width: 100%;
+    display: flex;
+}
+.map
+{
+    width: 500px;
+    padding: 0px 0px 0px 0px;
+}
+.form
+{
+    width: 800px;
+    padding-top: 20px;
+}
+.h2-7
+{
+    padding-top: 100px;
+    font-size: 60px;
+    color: red;
+    margin-right: 100px;
+}
+.name 
+{
+    margin-top: 30px;
+    width: 400px;
+    line-height: 37px;
+}
+.text
+{
+    margin-top: 10px;
+    width: 400px;
+    line-height: 37px;
+}
+.button-7
+{
+    position: relative;
+    display: block;
+    margin-top: 2vw;
+    background-color: #b13941;
+    color: white;
+    width: 150px;
+    padding: 1vw;
+    margin-left: 14.30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.a3
+{
+    position: absolute;
+    background-color: #000000;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 100%;
+    transition: 0.7s;
+}
+.button-7:hover .a3 
+{
+    top: 0;
+    transition: 0.8s;
+}
+/* ........................................box8..................................... */
+.box8
+{
+    padding-bottom: 50px;
+   width: 100%;
+   display: flex;
+   background-color: #b13941;
+}
+.mainlogo-8
+{
+    padding-top: 90px;
+    width: 16.66%;
+    padding-right: 50px;
+    margin-left: 50px;
+    transition: ease 0.5s;
+}
+.mainlogo-8:hover
+{
+    scale: 1.1;
+}
+.a4 ,.icon-f
+{
+    cursor: pointer;
+    transition: ease 1.1s;
+}
+.a4:hover
+{
+    
+    scale: 1.1;
+}
+.yourcompany
+{
+    width: 16.66%;
+    margin-left: 90px;
+    padding-top: 50px;
+}
+.ul-8 , .ul-9
+{
+    display: block;
+    color: white;
+}
+.li-2 , .li-1 , .li-3
+{
+    padding-top: 30px;
+   line-height: 2px;
+   font-size: 19px;
+}
+.li-3
+{
+   padding-right: 95px;
+}
+.li-4
+{
+    padding-top: 50px;
+}
+.company
+{
+    font-size: 25px;
+    margin-top: 30px;
+    width: 200px;
+}
+.li-5
+{
+    padding-top: 80px;
+    font-size: 25px;
+}
+.LoremIpsum , .SitAmet , .Sitemap
+{
+    width: 16.66%;
+}
+.logo-8
+{
+    width: 25%;
+}
+.logo-08
+{
+    padding-top: 100px;
+}
+.p-11
+{
+   padding: 50px 1px; 
+   color: white;
+}
+.icon-f
+{
+    font-size: 25px;
+    margin-right: 100px;
+}
+
+/* mediya Quaray */
+
+@media (max-width:600px)
+{
+    .logoo
+    {
+        display: block;
+        margin-top: 2vw;
+    }
+    .li1
+    {
+        display: none;
+    }
+    .li5
+    {
+        display: block;
+        font-size: 4vw;
+        color: white;
+        margin-top: 2vw;
+    }
+    .ul-2
+    {
+        display: none;
+        
+    }
+    .li5:hover .ul-2
+    {
+        display: block;
+    }
+
+    /* box1 */
+
+    .p-1
+    {
+        font-size: 15px;
+        color: #fefefe;
+        font-family: "PT Serif";
+        padding: 0px 8vw;
+    }
+    .b1 
+    {
+        padding: 2vw;
+        width: 100px;
+    }
+
+   
+    /* box2 */
+    .box2
+    {
+        flex-direction: column;
+    }
+    .banaer-1
+    {
+        margin-left: -10vw;
+    }
+    .maintext-2
+    {
+        margin-left: 4vw;
+    }
+    .p-4
+    {
+        padding: 1px;
+        font-size: 10px;
+    }
+
+    /* box3 */
+
+
+    .box3
+    {
+        flex-direction: row;
+    }
+    .banare-2
+    {
+        width: 400px;
+        height: 400px;
+    }
+    .maintext-3
+    {
+        width: 400px;
+        height: 400px;  
+    }
+    .h2
+    {
+      margin-left: -10px;
+      font-size: 5vw;  
+      margin-top: -13vw;
+      padding: 5vw 2vw;
+    }
+    .p-5
+    {
+        font-size: 10px;
+        padding: 0px 9px;
+    }
+    .a-01
+    {
+        margin-left: 13px;
+    }
+
+    /* box4 */
+
+    .p-6
+    {
+        font-size: 3vw;
+        padding: 0px 5vw;
+        margin-right: 70px;
+    }
+    
+    .allimg
+    {
+        margin-top: 5vw;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-left: 12vw;
+    }
+    .mainimg
+    {
+        margin-left: 2vw;
+    }
+
+
+    /* box5 */
+
+    .allimg-5
+    {
+        flex-wrap: wrap;
+    }
+    .img-5 , .img-05 , .img-005
+    {
+        margin-left: 20vw;
+    }
+    .p-8
+    {
+        font-size: 3vw;
+    }
+    .box-005 
+    {
+        margin-left: 17vw;
+    }
+    .box-5
+    {
+        margin-right: 38vw;
+    }
+
+    /* box6 */
+
+    .box6
+    {
+      flex-direction: column;  
+    }
+    .h2-6  
+    {
+       font-size: 5vw; 
+       margin-left: 5vw;
+       padding: 5vw 3vw;
+    }
+    .p-10
+    {
+        font-size: 3vw;
+        width: 100vw;
+        padding: 0 0vw;
+        margin-left: 10vw;
+        margin-top: -1vw;
+    }
+    .icon-f-w 
+    {
+        display: flex;
+        margin-left: 10vw;
+        gap: 5vw;
+    }
+    .video
+    {
+       margin-left: 9vw;
+    }
+
+    /* box7 */
+
+    .box7
+    {
+        flex-direction: column;
+        padding-bottom: 5vw;
+    }
+    .map
+    {
+        width: 100%;
+        height: 400px;
+        overflow:hidden ;
+    }
+    .h2-7 , .name , .text , .msg
+    {
+        padding: 0;
+        margin-right: 45vw;
+    }
+    .button-7
+    {
+        margin-top: 5vw;
+    }
+
+    /* box8 */
+
+    .box8
+    {
+       flex-direction: column;
+    }
+    .yourcompany , .Sitemap , .LoremIpsum , .SitAmet , .logo-08 , .p-11
+    {
+        display: none;
+    }
+    .mainlogo-8
+    {
+        margin-left: 20vw;
+    }
+    .logo-8
+    {
+        margin-left: 30vw; 
+    }
+    .icon-f
+    {
+        font-size: 5vw;
+        margin-top: 7vw;
+        display: flex;
+        gap: 4vw;
+    }
+}
