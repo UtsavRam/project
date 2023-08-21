@@ -3,7 +3,7 @@
 {
    margin: 0;
    padding: 0;
-   box-sizing: border-box;  
+   box-sizing: border-box;      
 }
 body
 {
@@ -446,6 +446,10 @@ padding: 0px 100px;
     width: 150px;
     margin-left: 90px;
 }
+.big
+{
+    display: block  ;
+}
 /* ........................................box6..................................... */
 .box6
 {
@@ -700,12 +704,18 @@ padding: 0px 100px;
     }
     .maintext-2
     {
-        margin-left: 4vw;
+        margin-left: 10vw;
+        margin-top: -50px;
     }
     .p-4
     {
+        margin-top: 10px;
         padding: 1px;
-        font-size: 10px;
+        font-size: 13px;
+    }
+    .button-2
+    {
+        margin-top: 20px;
     }
 
     /* box3 */
@@ -762,7 +772,10 @@ padding: 0px 100px;
     {
         margin-left: 2vw;
     }
-
+    .small
+    {
+        height: 239px;
+    }
 
     /* box5 */
 
@@ -785,6 +798,12 @@ padding: 0px 100px;
     .box-5
     {
         margin-right: 38vw;
+    }
+    .button-5
+    {
+        margin-left: 17vw;
+        width: 120px;
+        height: 40px;
     }
 
     /* box6 */
