@@ -4,26 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* .contenare
-{
-    margin-top: 3vw;
-}
-nav  ul li 
-{
-    display: flex;
-}
-header 
-{
-    display: grid;
-    grid-template-rows: 8fr  2fr;
-}
-.b1
-{
-    font-weight: 900;
-    margin-top: -10px;
-    width: 10vw;
-    line-height: 3vw;
-} */
 header
 {
    padding: 5% 5% 5% 5%;
@@ -43,7 +23,7 @@ header
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5vh;
+    height: 5vh;  
     width: 10vw;
     border: 1px solid black;
     background-color: rgba(169, 169, 169, 0.218);
@@ -204,3 +184,72 @@ h1
         font-size: 1.4vw;
     }
    
+
+        /* ................................box5............................... */
+        .box5
+        {
+            width: 100%;
+            display: flex;
+        }
+        .box5img1
+        {
+            width: 41%;
+        }
+        .box5img1 img
+        {
+            height: 99vh;
+            padding-left: 80px;
+        }
+        .box5img2
+        {
+            width: 59%;
+        }
+        .box5img2 img
+        {
+            height: 50vh;
+            padding-left: 50px;
+        }
+        .box5text
+        {
+            display: flex;
+        }
+        .box5text .u
+        {
+            padding-left: 50px;
+            font-size: 30px;
+            padding-top: 20px;
+           
+        }
+        .box5text .para .p1 
+        {
+            
+            padding-top: 30px;
+            font-size: 15px;
+        }
+        .box5text .para .p2
+        {
+            padding-top: 20px;
+            font-size: 15px;
+        }
+        /* ................................box6............................... */
+        .box6
+        {
+            width: 100%;
+            background-color: black;
+            color: white;
+            display: flex;
+        }
+        .box6text
+        {
+            width: 50%;
+            border: 1px solid white;
+        }
+        .box6text h1
+        {
+            font-size: 5vh;
+        }
+        .box6img
+        {
+            border: 1px solid white;
+            width: 50%;
+        }

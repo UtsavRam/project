@@ -1,0 +1,10 @@
+@media (max-width:600px)
+{
+    .row
+    {
+        margin-left: 10px;
+        display: flex;
+        /* gap: 100px; */
+        margin-top: 10px;
+    }
+}

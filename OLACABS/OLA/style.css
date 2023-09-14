@@ -1,0 +1,96 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenare 
+{
+    position: fixed;
+}
+header
+{
+    width: 100%;
+    background-color: black;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 3fr 28fr 1fr 1fr 1fr;
+}
+/* .comnylogo,nav,.button1,.button2,.menubar
+{
+    border: 1px solid white;
+} */
+nav
+{
+    display: flex;
+   
+}
+nav ul li
+{
+    display: inline-block;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.comnylogo
+{
+    display: flex;
+     align-items: center;
+    justify-content: center; 
+}
+.button1 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;  
+    width: 10vw;
+    background-color: rgba(55, 55, 55, 0.924);
+    font-weight: 900;
+    border: none;
+    margin-top: 6px;
+    margin-left: 16px;
+}
+.button2 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;  
+    width: 10vw;
+    background-color: rgba(255, 255, 255);
+    color: rgb(4, 4, 4);
+    font-weight: 900;
+    border: none;
+    margin-top: -42px;
+    margin-left: 170px;
+}
+.menubar
+{
+    margin-top: -30px;
+    margin-left: 330px; 
+    height: 20vh; 
+}
+.comnylogo img
+{
+    margin-top: -80px;
+}
+.heroimg .img 
+{
+    background-image: url(../Image/hero-banner-mobile.png);
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 100%;
+   height: 55vh;
+}
+.img p
+{
+    font-size: 55px;
+    padding: 170px 100px 0px 250px;
+    color: rgba(255, 255, 255, 0.896);
+    font-weight: 900;
+}
