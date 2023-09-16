@@ -231,25 +231,81 @@ h1
             padding-top: 20px;
             font-size: 15px;
         }
+        .box5text .para i
+        {
+            margin-top: 30px;
+        }
         /* ................................box6............................... */
         .box6
         {
             width: 100%;
-            background-color: black;
             color: white;
             display: flex;
+            background-color: black;
+            padding-bottom: 80px;
         }
         .box6text
         {
             width: 50%;
-            border: 1px solid white;
         }
         .box6text h1
         {
-            font-size: 5vh;
+            font-size: 8vh;
+            margin-top: 80px;
+            
+        }
+        .box6span1 , .box6span2 
+         {
+            margin-top: 30px;
+         }
+        .box6span1 span
+        {
+            font-weight: 900;
+            margin-left: 129px;
+            margin-top: 50px;
+        }
+        .box6span1 p
+        {
+            font-weight: 300;
+            margin-left: 129px;
+            margin-top: 10px; 
+            font-size: 12px;
+        }
+        .box6span2 span
+        {
+            font-weight: 900;
+            margin-left: 129px;
+            margin-top: 50px;
+        }
+        .box6span2 p
+        {
+            font-weight: 300;
+            margin-left: 129px;
+            margin-top: 10px; 
+            font-size: 12px;
         }
         .box6img
         {
-            border: 1px solid white;
             width: 50%;
+            margin-top: 100px;
         }
+            /* ................................box7............................... */
+            .box7
+            {
+                width: 100%;
+                border: 1px solid black;
+                display: flex;
+                height: 300px;
+            }
+            .box7text
+            {
+                width: 50%;
+                border: 1px solid black;
+                background-color: red;
+            }
+            .box7img
+            {
+                width: 50%;
+                border: 1px solid black;
+                background-color: blue;
+            }
