@@ -123,8 +123,8 @@ h1
 }
 .img01 , .img02 , .img03
 {
-    margin-top: 23vh;
-    margin-left: 3vw;
+     margin-top: 23vh;
+    margin-left: 3vw; 
 }
 .xline
 {
@@ -293,19 +293,42 @@ h1
             .box7
             {
                 width: 100%;
-                border: 1px solid black;
                 display: flex;
-                height: 300px;
+                /* height: 300px; */
+                padding-bottom: 100px;
             }
             .box7text
             {
-                width: 50%;
-                border: 1px solid black;
-                background-color: red;
+                width: 60%;
+            }
+            .box7text h1
+            {
+                font-size: 55px;
+                padding: 40px 120px ;
+                /* margin-left: 55px; */
+            }
+            .box7text .xline
+            {
+                width: 480px;
+                height: 4px;
+                margin-left: 100px
+            }
+            .box7text p
+            {
+                margin-left: 120px;
+                margin-top: 10px;
+                font-size: 13.6px;
+            }
+            .box7text span
+            {
+                margin-left: 30px;
+                font-weight: 900;
+                color: black;
+                font-size: 20px;
+            
             }
             .box7img
             {
-                width: 50%;
-                border: 1px solid black;
-                background-color: blue;
+                width: 40%;
+               
             }
