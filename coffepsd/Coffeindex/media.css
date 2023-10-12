@@ -1,0 +1,65 @@
+@media(max-width:1100px){
+    footer{grid-template-columns: 1fr 1fr 1fr; }
+    .footer-logo{justify-content: center;}
+    .footer-links .link1 p{text-align: center;}
+    footer .link1,.link2,.link3,.link4{padding: 20px;}
+    }
+
+    @media(max-width:992px)
+    {  
+    header nav .nav-right,header nav .nav-left{  display: none;}
+    header nav .nav-brand{ padding: 5px 0px 5px 30px;}
+    header .menu-bar{display: block;}
+    .best-brand .brand-info .story-content{ width: 100%;}
+    .menu .menu-info{line-height: normal;}    
+    .Corpertum-btn button{border: 1px solid #d0343f;}
+    .store-cards-section .store-card{margin-left: 20px;}
+    .map-area{flex-wrap: wrap}
+    .map-area .map{width: 100%;}
+    .map-area .contact-area{width: 100%;}
+    .map-area .map iframe{width: 112vw;height: 300px;}
+    .map-area .contact-area{padding-top: 20px;}
+    .map-area .contact-area h2{font-size: 5lvw;}
+    .map-area .contact-area .form input{width: 100%;height: 6lvw;}
+    .map-area .contact-area .form button{width: 17vw;height: 7vh;}
+    .map-area .contact-area .form button{font-size: 2.2lvw;}
+    footer{grid-template-columns: 1fr 1fr 1fr; }
+    .footer-logo{justify-content: center;}
+    .footer-links .link1 p{text-align: center;}
+    footer .link1,.link2,.link3,.link4{padding: 20px;}
+    .card .part-2 p{padding: 10px 5px 10px 5px;}
+
+}
+
+    @media(max-width:768px)
+    {
+      
+    footer{grid-template-columns: 1fr 1fr; }
+    .footer-logo{justify-content: center;}
+    .footer-links .link1 p{text-align: center;}
+    footer .link1,.link2,.link3,.link4{padding: 20px;}
+    .map-area .contact-area .form button{height: 35px;width: 100px;font-size: 15px;}
+    .map-area .contact-area .form button{height: 40px;width: 110px;font-size: 15px;}
+    }
+
+    @media(max-width:500px)
+    {
+          header nav .nav-brand{ padding: 0px;padding-left: 33px;}
+header nav .nav-brand img{width: 50px; height: 50px;}
+          header .menu-bar{font-size: 5vw;}
+     
+    footer{grid-template-columns: 1fr;} 
+    .footer-logo{ justify-content: center;}
+    .footer-links .link1 p{text-align: center;}
+    footer .link1,.link2,.link3,.link4{ padding: 20px;}
+    .map-area .contact-area .form input{height: 40px;width: 100%;}
+    .map-area .contact-area .form textarea{height: 120px;}
+    .map-area .contact-area .form button{height: 40px;width: 110px;font-size: 15px;}
+        .map-area .contact-area h2 {font-size: 10vw;}
+        .store-section .store-titile{padding: 0px;}
+     input::placeholder,textarea::placeholder{
+            font-size: 20px;
+      }
+}
+
+

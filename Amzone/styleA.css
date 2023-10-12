@@ -1,0 +1,1411 @@
+*{
+    margin: 0%;
+    /* padding: 0; */
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+body
+{
+    background-color:rgba(128, 128, 128, 0.105);
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.logo{
+    height: 50PX;
+    width: 123PX;
+    /* margin-right: 50px; */
+    background-image: url(../../image/amazon_logo.png);
+    background-size: cover;
+}
+.Enall
+{
+    display: flex;
+}
+.flag img
+{
+    width: 30px;
+}
+#english
+{
+    margin-top: 10px;
+    background: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+}
+/*box2*/
+
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1px solid white; 
+}
+.add1{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add2{
+     font-size: 1rem;
+     margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/**box3**/
+.nav-search{
+    display: flex;
+    background-color: orange;
+    height: 40px;
+    width: 620px;
+    border-radius: 5px;
+}
+.nav-search:hover{
+    border: 3px solid orange;
+}
+.s-select{
+    background-color: #f3f3f3;
+     /* width: 150px; */
+     width: auto;
+     text-align: center;
+     border-top-left-radius: 4px;
+     border-top-right-radius: 4px;
+     border-bottom-left-radius: 4px;
+     border: none;
+}
+.s2{
+            width: 100%;
+            font-size: 1.3rem;
+            border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #FEBD68;  
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+   
+}
+span{
+   font-size: 0.7rem;
+}
+.nav-seconde{
+    font-size: 0.85rem;
+    font-weight: 800;
+}
+.nav-cart i{
+font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 800;
+}
+
+
+              /*panel*/
+.nav-penale{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    background-color: #222f3d;
+    align-items: center;
+    color: white;
+    justify-content:space-evenly;
+    /* padding-bottom: 20px; */
+    /* line-height: 40px; */
+}
+.nav-tv{
+    display: flex;
+        margin-right: 250px;
+        margin-left: 10px;
+       word-spacing: 15px;
+        /* word-spacing: 19px; */
+        font-size: 0.60rem;
+        font-weight: 900;
+}
+.panel-last{
+    font-size: 0.80rem;
+    font-weight: 600;
+}
+/* .....................start png pages.................... */
+.hero-page
+{
+    width: 99.88%;
+    /* height: 100px; */
+    position: relative;
+}
+.hero-img
+{
+    position: relative;
+   width: 100%;
+   height: 470px;
+   background-image: url(../amzone/amzoneimg/heropage2.jpg);
+   background-size: cover;
+   position: relative;
+   
+}
+.box1
+{
+    margin-top: -18vw;
+    margin-left: 3vw;
+    position: absolute;
+    width: 22vw;
+    height: 70vh;
+    box-shadow: 1px 1px 10px black;
+    background-color: white;
+}
+.box1 p 
+{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 1.6vw;
+}
+.box1 img
+{
+    margin-top: 12px;
+    margin-left: 15px;
+    width: 250px;
+    height: 280px;
+}
+.box1 a
+{
+    text-decoration: none;
+    margin-left: 15px;
+    color: rgb(97, 212, 251);
+}
+.box1:hover
+{
+    box-shadow: 2px 2px 10px black;
+
+}
+.box1:hover a 
+{
+    color: rgb(255, 93, 93);
+}
+/* ...........................box2......................... */
+.box2
+{
+    margin-left: 27vw;
+    margin-top: -18vw;
+    position: absolute;
+    width: 22vw;
+    height: 70vh;
+    box-shadow: 1px 1px 10px black;
+    background-color: white;
+}
+.box2 p 
+{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 2vw;
+}
+.box2 img
+{
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 250px;
+    height: 280px;
+}
+.box2 a
+{
+    text-decoration: none;
+    margin-left: 15px;
+    color: rgb(97, 212, 251);
+}
+.box2:hover
+{
+    box-shadow: 2px 2px 10px black;
+
+}
+.box2:hover a 
+{
+    color: rgb(255, 93, 93);
+}
+/* ...............................box3.......................... */
+.box3
+{
+    margin-left: 51vw;
+    margin-top: -18vw;
+    position: absolute;
+    width: 22vw;
+    height: 70vh;
+    box-shadow: 1px 1px 10px black;
+    background-color: white;
+}
+.box3 p
+{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 2vw;
+} 
+.fastimg
+{
+    margin-top: 13px;
+    margin-left: 10px;
+    display: flex;
+    gap: 20px;
+}
+.box3 a
+{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    padding-top: 10px;
+    font-size: 12px;
+}
+.box3 .a
+{
+    margin-left: 92px;
+}
+.box3 .oa
+{
+    font-size: 15px;
+    margin-top: 7px;
+    color: rgb(97, 212, 251);
+    margin-right: 13px;
+    cursor: pointer;
+}
+.oa:hover 
+{
+    color: rgb(255, 93, 93);
+}
+/* ...................................box4.............................. */
+.box4
+{
+    margin-left: 75vw;
+    margin-top: -18vw;
+    position: absolute;
+    width: 22vw;
+    height: 70vh;
+    box-shadow: 1px 1px 10px black;
+    background-color: white;
+}
+.box4 p
+{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 2vw;
+} 
+.fastimg
+{
+    margin-top: 13px;
+    margin-left: 10px;
+    display: flex;
+    gap: 20px;
+}
+.box4 a
+{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    padding-top: 10px;
+    font-size: 12px;
+}
+.box4 .a
+{
+    margin-left: 53px;
+    color: #0f1111;
+}
+.box4 .aa 
+{
+    margin-left: 72px;
+}
+.box4 .oa
+{
+    font-size: 15px;
+    margin-top: 7px;
+    color: rgb(97, 212, 251);
+    margin-right: 13px;
+    cursor: pointer;
+}
+.oa:hover 
+{
+    color: rgb(255, 93, 93);
+}
+/* ..............................secode page.......................... */
+.secodepage
+{
+    width: 100%;
+    position: relative;
+    margin-top: 35vw;
+    display: flex;
+}
+/* ..............................box5............................. */
+.box5
+{
+    margin-left: 3vw;
+    margin-top: -18vw;
+    position: absolute;
+    width: 22vw;
+    height: 70vh;
+    box-shadow: 1px 1px 10px black;
+    background-color: white;
+}
+.box5 p
+{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 1.7vw;
+} 
+.fastimg
+{
+    margin-top: 13px;
+    margin-left: 10px;
+    display: flex;
+    gap: 20px;
+}
+.box5 a
+{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    padding-top: 10px;
+    font-size: 12px;
+   
+}
+.box5 .a
+{
+    margin-left: 40px;
+    font-size: 12px;
+}
+.box5 .aa
+{
+    margin-left: 90px;
+}
+.box5 .oa
+{
+    font-size: 15px;
+    margin-top: 15px;
+    color: rgb(97, 212, 251);
+    cursor: pointer;
+}
+.oa:hover 
+{
+    color: rgb(255, 93, 93);
+}
+/* ..............................box6............................. */
+.box6
+{
+    margin-left: 27vw;
+    margin-top: -18vw;
+    position: absolute;
+    width: 22vw;
+    height: 70vh;
+    box-shadow: 1px 1px 10px black;
+    background-color: white;
+}
+.box6 p
+{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 1.7vw;
+} 
+.fastimg
+{
+    margin-top: 13px;
+    margin-left: 10px;
+    display: flex;
+    gap: 20px;
+}
+.box6 a
+{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    padding-top: 10px;
+    font-size: 12px;
+   
+}
+.box6 .a
+{
+    margin-left: 40px;
+    font-size: 12px;
+}
+.box6 .aa
+{
+    margin-left: 90px;
+}
+.box6 .oa
+{
+    font-size: 15px;
+    margin-top: 15px;
+    color: rgb(97, 212, 251);
+    cursor: pointer;
+}
+.oa:hover 
+{
+    color: rgb(255, 93, 93);
+}
+/* ...........................box7....................... */
+.box7
+{
+    margin-left: 51vw;
+    margin-top: -18vw;
+    position: absolute;
+    width: 22vw;
+    height: 70vh;
+    box-shadow: 1px 1px 10px black;
+    background-color: white;
+}
+.box7 p
+{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 1.5vw;
+} 
+.fastimg
+{
+    margin-top: 13px;
+    margin-left: 10px;
+    display: flex;
+    gap: 20px;
+}
+.box7 a
+{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    padding-top: 10px;
+    font-size: 12px;
+   
+}
+.box7 .a
+{
+    margin-left: 30px;
+    font-size: 12px;
+}
+.box7 .aa
+{
+    margin-left: 8px;
+}
+.box7 .oa
+{
+    font-size: 15px;
+    margin-top: 15px;
+    color: rgb(97, 212, 251);
+    cursor: pointer;
+}
+.oa:hover 
+{
+    color: rgb(255, 93, 93);
+}
+/* .................................box8............................ */
+.box8
+{
+    margin-top: -18vw;
+    margin-left: 75vw;
+    position: absolute;
+    width: 22vw;
+    height: 70vh;
+    box-shadow: 1px 1px 10px black;
+    background-color: white;
+}
+.box8 p 
+{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 1.6vw;
+}
+.box8 img
+{
+    margin-top: 12px;
+    margin-left: 15px;
+    width: 250px;
+    height: 280px;
+}
+.box8 a
+{
+    text-decoration: none;
+    margin-left: 15px;
+    color: rgb(97, 212, 251);
+}
+.box8:hover
+{
+    box-shadow: 2px 2px 10px black;
+
+}
+.box8:hover a 
+{
+    color: rgb(255, 93, 93);
+}
+/* .................................Tharad page............................ */
+.Tharadpage
+{
+    width: 100%;
+    height: 330px;
+    background-color: white;
+    margin-top: 17vw;
+    display: flex;
+}
+.Tharadpage h2
+{
+    margin-top: 5px;
+    margin-left: 2vw;
+}
+.Tharadpage a
+{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(97, 212, 251);
+}
+.Tharadpage a:hover
+{
+    color: rgb(255, 93, 93);
+    text-decoration: underline;
+}
+/* .................................box9............................ */
+.box9 
+{
+    height: 230px;
+    width: 250px;
+    background-color: rgba(214, 228, 241, 0.272);
+    margin-left: 2vw;
+    position: absolute;
+    margin-top: 3vw;
+}
+.img img
+{
+  background-color: transparent;
+  margin-left: 50px;
+  margin-top: 36px; 
+}
+.Tharadpage .text
+{
+    margin-top: 21.50vw;
+    left:  25px;
+    position: absolute;
+    background-color: rgb(230, 64, 64);
+    line-height: 22px;
+    height: 23px;
+    width: 8vw;
+}
+.Tharadpage p
+{
+    margin-top: 21.80vw;
+    left:  11vw;
+    position: absolute;
+    font-size: 13px;
+    color: rgb(230, 64, 64);
+}
+.new
+{
+    margin-top: 24vw;
+    font-size: 15px;
+    left:  25px; 
+    position: absolute;
+    /* background-color: aqua; */
+}
+/* .................................box10............................ */
+.box10
+{
+    height: 230px;
+    width: 250px;
+    background-color: rgba(214, 228, 241, 0.272);
+    margin-left: 24vw;
+    position: absolute;
+    margin-top: 3vw;
+}
+.box10img img
+{
+    background-color: transparent;
+    margin-left: 50px;
+    margin-top: 36px; 
+}
+.Tharadpage .box10text
+{
+    margin-top: 21.50vw;
+    left:  24vw;
+    position: absolute;
+    background-color: rgb(230, 64, 64);
+    line-height: 22px;
+    height: 23px;
+    width: 8vw;
+}
+h6
+{
+    margin-top: 21.80vw;
+    left:  33vw;
+    position: absolute;
+    font-size: 13px;
+    color: rgb(230, 64, 64);
+}
+.box10new
+{
+    margin-top: 24vw;
+    font-size: 15px;
+    left:  24vw; 
+    position: absolute;
+    /* background-color: aqua; */
+}
+/* .................................box11............................ */
+.box11
+{
+    height: 230px;
+    width: 250px;
+    background-color: rgba(214, 228, 241, 0.272);
+    margin-left: 46vw;
+    position: absolute;
+    margin-top: 3vw;
+}
+.box11img img
+{
+    margin-left: 20px;
+    margin-top: 15px; 
+}
+.Tharadpage .box11text
+{
+    margin-top: 21.50vw;
+    left:  46vw;
+    position: absolute;
+    background-color: rgb(230, 64, 64);
+    line-height: 22px;
+    height: 23px;
+    width: 8vw;
+}
+.box11h6
+{
+    margin-top: 21.80vw;
+    left:  55vw;
+    position: absolute;
+    font-size: 13px;
+    color: rgb(230, 64, 64);
+}
+.box11new
+{
+    margin-top: 24vw;
+    font-size: 15px;
+    left:  46vw; 
+    position: absolute;
+}
+/* .................................box11............................ */
+.box12
+{
+    height: 230px;
+    width: 300px;
+    background-color: rgba(214, 228, 241, 0.272);
+    margin-left: 69vw;
+    position: absolute;
+    margin-top: 3vw;
+}
+.box12img img
+{
+    margin-left: 20px;
+    margin-top: 15px; 
+}
+.Tharadpage .box12text
+{
+    margin-top: 21.50vw;
+    left:  69vw;
+    position: absolute;
+    background-color: rgb(230, 64, 64);
+    line-height: 22px;
+    height: 23px;
+    width: 8vw;
+}
+.box12h6
+{
+    margin-top: 21.80vw;
+    left:  78vw;
+    position: absolute;
+    font-size: 13px;
+    color: rgb(230, 64, 64);
+}
+.box12new
+{
+    margin-top: 24vw;
+    font-size: 15px;
+    left:  69vw; 
+    position: absolute;
+}
+/* ...................................four page.......................... */
+.fourpage
+{
+        width: 100%;
+        height: 280px;
+        background-color: white;
+        margin-top: 3vw;
+    }
+    .box14text h1
+    {
+        font-size: 25px;
+    }
+    .box14text span
+    {
+        cursor: pointer;
+        margin-top: 10px;
+        margin-left: 10px;
+        color: rgb(97, 212, 251);
+        font-size: 15px;
+    }
+    .box14text span:hover
+    {
+        color: rgb(230, 64, 64);
+        text-decoration: underline;
+    }
+    .box14text
+    {
+        display: flex;
+    }
+    .allimg
+    {
+        display: flex;
+        margin-top: 15px;
+        height: 220px;
+        width: 100%;
+        gap: 50px;
+    }
+    /* ...................................fivepage.......................... */
+    .fivepage
+    {
+        width: 100%;
+        height: 320px;
+        background-color: white;
+        margin-top: 3vw;
+    }
+    .box15text .box15h1
+    {
+        font-size: 25px;
+    }
+    .box15text .box15span
+    {
+        cursor: pointer;
+        margin-top: 10px;
+        margin-left: 10px;
+        color: rgb(97, 212, 251);
+        font-size: 15px;
+    }
+    .box15text .box15span:hover
+    {
+        color: rgb(230, 64, 64);
+        text-decoration: underline;
+    }
+    .box15text
+    {
+        display: flex;
+    }
+    .box15allimg
+    {
+        display: flex;
+        margin-top: 15px;
+        height: 270px;
+        width: 100%;
+        gap: 50px;
+    }
+    /* ...................................sixpage.......................... */
+       .sixpage
+       {
+        width: 100%;
+        height: 80vh;
+        margin-top: 2vw;
+
+       }
+
+
+    .box16allpage
+    {
+        display: flex;
+        margin-top: 2.5vw;
+    }
+    /* ...............................box17.............................. */
+    .box17
+    {
+        /* margin-top: -18vw; */
+        margin-left: 3vw;
+    position: absolute;
+    width: 22vw;
+    height: 70vh;
+    box-shadow: 1px 1px 10px black;
+    background-color: white;
+}
+.box17 p 
+{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 1.6vw;
+}
+.box17 img
+{
+    margin-top: 12px;
+    margin-left: 15px;
+    width: 250px;
+    height: 280px;
+}
+.box17 a
+{
+    text-decoration: none;
+    margin-left: 15px;
+    color: rgb(97, 212, 251);
+}
+.box17:hover
+{
+    box-shadow: 2px 2px 10px black;
+    
+}
+.box17:hover a 
+{
+    color: rgb(255, 93, 93);
+}
+/* ...............................box18.............................. */
+.box18
+{
+    margin-left: 27vw;
+    position: absolute;
+    width: 22vw;
+    height: 70vh;
+    box-shadow: 1px 1px 10px black;
+    background-color: white;
+}
+.box18 p
+{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 1.5vw;
+} 
+.box18 .fastimg
+{
+    margin-top: 13px;
+    margin-left: 10px;
+    display: flex;
+    gap: 20px;
+}
+.box18 a
+{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    padding-top: 10px;
+    font-size: 12px;
+    
+}
+.box18 .a
+{
+    margin-left: 30px;
+    font-size: 12px;
+}
+.box18 .aa
+{
+    margin-left: 8px;
+}
+.box18 .oa
+{
+    font-size: 15px;
+    margin-top: 15px;
+    color: rgb(97, 212, 251);
+    cursor: pointer;
+}
+.oa:hover 
+{
+    color: rgb(255, 93, 93);
+}
+/* ...............................box19.............................. */
+.box19
+{
+    margin-left: 51vw;
+    position: absolute;
+    width: 22vw;
+    height: 70vh;
+    box-shadow: 1px 1px 10px black;
+    background-color: white;
+}
+.box19 p
+{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 1.5vw;
+} 
+.box19 .fastimg
+{
+    margin-top: 13px;
+    margin-left: 10px;
+    display: flex;
+    gap: 20px;
+}
+.box19 a
+{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    padding-top: 10px;
+    font-size: 12px;
+    
+}
+.box19 .a
+{
+    margin-left: 30px;
+    font-size: 12px;
+}
+.box19 .aa
+{
+    margin-left: 8px;
+}
+.box19 .oa
+{
+    font-size: 15px;
+    margin-top: 15px;
+    color: rgb(97, 212, 251);
+    cursor: pointer;
+}
+.oa:hover 
+{
+    color: rgb(255, 93, 93);
+}
+/* ...............................box20.............................. */
+.box20
+{
+    margin-left: 75vw;
+    position: absolute;
+    width: 22vw;
+    height: 70vh;
+    box-shadow: 1px 1px 10px black;
+    background-color: white;
+}
+.box20 p
+{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 1.5vw;
+} 
+.box20 .fastimg
+{
+    
+    margin-top: 13px;
+    display: flex;
+    gap: 20px;
+}
+.box20 .fastimg-1
+{
+    
+    margin-top: 13px;
+    display: flex;
+    margin-left: 100px;
+    gap: 20px;
+}
+.box20 a
+{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    padding-top: 10px;
+    font-size: 12px;
+    
+}
+.box20 .a
+{
+    margin-left: 30px;
+    font-size: 12px;
+}
+.box20 .aa
+{
+    margin-left: 8px;
+}
+.box20 .oa
+{
+    font-size: 15px;
+    margin-top: 15px;
+    color: rgb(97, 212, 251);
+    cursor: pointer;
+}
+.oa:hover 
+{
+    color: rgb(255, 93, 93);
+}
+/* ...................................seavn page ............................. */
+.sevenpage
+{
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+}
+/* ...............................box21.............................. */
+.box21text
+{
+    display: flex;
+}
+.box21text p
+{
+    margin-top: 20px;
+    font-size: 2vw;
+    font-weight: 900;
+}
+.box21text a
+{
+    text-decoration: none;
+    padding-top: 35px;
+    padding-left: 15px;
+    color: rgb(97, 212, 251);
+}
+.box21text a:hover
+{
+    color: rgb(255, 93, 93);
+    text-decoration: underline;
+}
+.box21allimg
+{
+   margin-top: 25px;
+}
+.box21allimg img
+{
+    margin-left: 25px;
+}
+    /* ...................................Eight page ............................. */
+    .Eightpage
+    {
+        width: 99.90%;
+        height: 35vh;
+        border: 1px solid white;
+        background-color: white;
+        margin-top: 30px;
+    }
+    /* .....................................box22.................................. */
+    .box22
+    {
+        width: 99.90%;
+        height: 20vh;
+        background-color: transparent;
+        border: 1px solid rgba(0, 0, 0, 0.154);
+        margin-top: 60px;
+    }
+    .box22 h3
+    {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .box22 button
+    {
+        margin-left:  37vw;
+        width: 25vw;
+        height: 5vh;
+        background-color: #ffb700;
+        border: none;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .box22text
+    {
+        display: flex;
+        margin-left: 43vw;
+        margin-top: 10px;
+    }
+    .box22text p 
+    {
+        font-size: 15px;
+    }
+    .box22text a
+    {
+        text-decoration: none;
+        font-size: 13px;
+        margin-left: 5px;
+        color: rgb(97, 212, 251);
+    }
+    .box22text a:hover
+    {
+        color: rgb(255, 93, 93);
+        text-decoration: underline;
+    }
+    /* ...................................NINE page ............................. */
+    .ninepage
+    {
+        width: 100%;
+        height: 8vh;
+        background-color: #222f3d;
+    }
+        /* .....................................box23.................................. */
+        .box23 a
+        {
+            color: white;
+            margin-left: 47vw;
+            margin-top: 45px;
+            line-height: 50px;
+            text-decoration: none;
+            font-size: 13px;
+        }
+        .box23:hover 
+        {
+            background-color: white;
+            opacity: 0.1;
+        }
+        /* ...................................TEN page ............................. */
+        .tenpage
+        {
+            width: 100%;
+            height: 80vh;
+            background-color: #152435;
+            color: rgba(255, 255, 255, 0.872);
+        }
+        .allbox
+        {
+            display: flex;
+            padding-top: 50px;
+            border-bottom: 1px solid rgba(248, 248, 248, 0.156);
+        }
+        .box24
+        {
+            width: 25%;
+            height: 50vh;
+            text-indent: 50px;
+        }
+        .box24 ul li
+        {
+          text-transform:capitalize;
+          padding-top: 10px;
+        }
+        .box25
+        {
+            width: 25%;
+            height: 50vh;
+            text-indent: 30px;
+        }
+        .box25 ul li
+        {
+          text-transform:capitalize;
+          padding-top: 10px;
+        }
+        .box26
+        {
+            width: 25%;
+            height: 50vh;
+        }
+        .box26 ul li
+        {
+            text-transform:capitalize;
+            padding-top: 10px;
+        }
+        .box27
+        {
+            width: 25%;
+            height: 50vh;
+        }
+        .box27 ul li
+        {
+            text-transform:capitalize;
+            padding-top: 10px;
+        }
+        .box24 a , .box25 a , .box26 a , .box27 a
+        {
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.783);
+        }
+        .allbox a:hover
+        {
+            text-decoration: underline;
+        }
+        /* .............................eleven page ........................... */
+        .elevenpage
+        {
+           
+            width: 100%;
+            height: 21vh;
+        }
+        .box28allimg
+        {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            margin-top: 15px;
+        }
+        .box28img
+        {
+            background-image: url(../../image/amazon_logo.png);
+            background-size: cover;
+            height: 50px;
+            width: 123px;
+            margin-left: 40vw;
+        }
+        .box30
+        {
+            display: flex;
+        }
+        .box30 
+        {
+            font-size: 12px;
+            margin-top: 20px;
+            justify-content: center;
+        }
+        .box30 p
+        {
+            padding-left: 20px;
+            cursor: pointer;
+        } 
+        .box30 p:hover
+        {
+            text-decoration: underline;
+        }
+
+            /* .............................Twelvepage page ........................... */
+            /* ...............................box31.......................... */
+            .Twelvepage
+            {
+                width: 100%;
+                height: 50vh;
+                background-color: #121820;
+                color: white;
+                /* display: flex; */
+            }
+            .box31allimg
+            {
+                width: 100%;
+                display: flex;
+                height: 37vh;
+            }
+            .box31
+            {
+                width: 20%;
+                margin-top: 40px;
+                text-indent: 80px;
+            }
+            .box31 a
+            {
+                text-decoration: none;
+                color: rgba(255, 255, 255, 0.713);
+                font-size: 13px;
+            }
+            .box31-ul-1:hover
+            {
+                text-decoration: underline;
+            }
+            .box31-ul-2  
+            {
+                margin-top: 29px;
+                text-decoration: none;
+                color: white;
+            }
+            .box31-ul-2:hover
+            {
+                text-decoration: underline;
+            }
+            /* ...............................box32.......................... */
+            .box32
+            {
+                width: 20%;
+                margin-top: 40px;
+                text-indent: 30px;
+            }
+            .box32 a
+            {
+                text-decoration: none;
+                color: rgba(255, 255, 255, 0.713);
+                font-size: 13px;
+            }
+            .box32-ul-1:hover
+            {
+                text-decoration: underline;
+            }
+            .box32-ul-2  
+            {
+                margin-top: 29px;
+                text-decoration: none;
+                color: white;
+            }
+            .box32-ul-2:hover
+            {
+                text-decoration: underline;
+            }
+            /* ...............................box33.......................... */
+            .box33
+            {
+                width: 20%;
+                margin-top: 40px;
+                text-indent: 50px;
+            }
+            .box33 a
+            {
+                text-decoration: none;
+                color: rgba(255, 255, 255, 0.713);
+                font-size: 13px;
+            }
+            .box33-ul-1:hover
+            {
+                text-decoration: underline;
+            }
+            .box33-ul-2  
+            {
+                margin-top: 29px;
+                text-decoration: none;
+                color: white;
+            }
+            .box33-ul-2:hover
+            {
+                text-decoration: underline;
+            }
+            /* ...............................box34.......................... */
+            .box34
+            {
+                width: 20%;
+                margin-top: 40px;
+                text-indent: -10px;
+            }
+            .box34 a
+            {
+                text-decoration: none;
+                color: rgba(255, 255, 255, 0.713);
+                font-size: 13px;
+            }
+            .box34-ul-1:hover
+            {
+                text-decoration: underline;
+            }
+            .box34-ul-2  
+            {
+                margin-top: 29px;
+                text-decoration: none;
+                color: white;
+            }
+            .box34-ul-2:hover
+            {
+                text-decoration: underline;
+            }
+            /* ...............................box35.......................... */
+            .box35
+            {
+                width: 20%;
+                margin-top: 40px;
+                text-indent: 0px;
+            }
+            .box35 a
+            {
+                text-decoration: none;
+                color: rgba(255, 255, 255, 0.713);
+                font-size: 13px;
+            }
+            .box35-ul-1:hover
+            {
+                text-decoration: underline;
+            }
+            /* ........................last div .................... */
+             .box36
+             {
+                text-align: center;
+             }
+            .box36 ul li   
+             {
+                  display: inline;
+                  color: rgba(255, 255, 255, 0.824);
+                  padding-left: 30px;
+                  cursor: pointer;
+                  font-size: 13px;
+             }
+             .box36 ul li:hover
+             {
+                text-decoration: underline;
+             }
+             .box37 
+             {
+                text-align: center;
+                color: rgba(255, 255, 255, 0.824);
+                margin-left: 75px;
+                font-size: 13px;
+             }

@@ -1,0 +1,700 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* user-select: none; */
+    list-style-type: none;
+    font-family: normal;
+    }
+    a{
+    text-decoration: none;
+    color: black;
+    }
+    header{
+    width: 100%;
+    /* height: auto; */
+    background-color: #d0343f;
+    background-image: url(../coffeimg/Shape\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+    }
+    header nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 25px;
+    }
+    header nav .nav-right{
+    width: 45%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    header nav .nav-right ul li{
+    display: inline-block;
+    padding: 35px;
+    padding-inline: 33px;
+  
+    }
+    header nav .nav-right ul li a{
+    color: white;
+    }
+    header nav .nav-brand{
+    width: 10%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    }
+    header nav .nav-brand img{
+        width: auto;
+    }
+  
+    header nav .nav-left{
+    width: 45%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    header nav .nav-left ul li{
+    display: inline-block;
+    padding-inline: 33px;
+    }
+    header nav .nav-left ul li a{
+    color: white;
+    }
+    header .menu-bar{
+    cursor: pointer;
+    font-size: 33px;
+    color: white;
+    position: absolute;
+    top: 28%;
+    right: 3%;
+    display: none;
+    }
+    /* header-close */
+    /* slide-menu-bar */
+    .sidenav {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0%;
+    background-color: #d0343f;;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 13;
+    }
+    .sidenav ul li{
+    padding: 10px;
+    }
+  
+    .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    }
+  
+    .sidenav a:hover {
+    color: #f1f1f1;
+    }
+  
+    .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    }
+    /* slide-menu-bar-close */
+    /* banner-1-start */
+    /* slider-start */
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .banner-1{
+  width: 100%;
+  position: relative;
+  }
+  .banner-1 .box{
+  width: 100%;
+  height: auto;
+  }
+  .banner-1 .box img{
+  width: auto;
+  height: auto;
+  }
+  
+    /* slider-close */
+    .banner-1 .banner-1-info{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(18, 17, 17, 0.283);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 11;
+    }
+    .banner-1 .banner-1-info h1{
+    font-size: 8lvw;
+    color: white;
+    text-align: center;
+    }
+    .banner-1 .banner-1-info .content{
+    width: 75%;
+    height: auto;
+    margin: auto;
+    padding: 22px;
+    }
+  
+    .banner-1 .banner-1-info p{
+    color: white;
+    font-size: 1.8lvw;
+    text-align: center;
+  
+    }
+    .banner-1 .banner-1-info button{
+    width: 20vw;
+    height: 6vw;
+    background: #d0343f;
+    color: #feedda;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+    display: inherit;
+    font-size: 1.8lvw;
+    }
+    /* offer-section-start */
+    .offers{
+    width: 100%;
+    height: auto;
+    background-color: #d0343f;
+    background-image: url(../coffeimg/Shape\ \(2\).png);
+    background-size: cover;
+    display: flex;
+    padding: 50px;
+    }
+    .offers .Coffee-brand{
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .offers .Coffee-brand img{
+    width: 27.8lvw;;
+    height: 27.8lvw;;
+    }
+  
+    .offers .offers-info{
+    width: 60%;
+    height: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .offers .offers-info span{
+    font-size: 3.2lvw;
+    font-weight: bolder;
+    }
+    .offers .offers-info h2{
+    font-size: 4.8lvw;
+    }
+    .offers .offers-info p{
+    font-size: 1.4lvw;
+    padding: 12px 0px 22px 0px;
+    }
+    .offers .offers-info button{
+    width: 20vw;
+    height: 4vw;
+    background: #feedda;;
+    color: #d0343f;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 1.8lvw;
+    }
+    /* offer-section-close */
+    /* best-brand-section-start */
+    .best-brand{
+    width: 100%;
+    height: auto;
+    display: flex;
+    }
+    .best-brand .brand-image{
+    width: 50%;
+    height: auto;
+    }
+    .best-brand .brand-info{
+    width: 50%;
+    height: auto;
+    background-color: #f8eed3;
+    display: flex;
+    align-items: center;
+  
+    } 
+    .best-brand .brand-info h2{
+    font-size: 5.8lvw;
+    text-align: center;
+    }
+    .best-brand .brand-info .story-content{
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+    font-size: 1.8lvw;
+  
+    }
+    .best-brand .brand-info a{
+    color: red;
+    font-size: 1.8lvw;
+    cursor: pointer;
+    text-decoration: underline;
+    display: block;
+    padding-top: 22px;
+    }
+  
+    .best-brand .brand-image img{
+    width: 50.8lvw;;
+    height: 50.8lvw;
+    }
+    /* best-brand-section-close */
+    /* menu-section-start */
+    .menu{
+    width: 100%;
+    height: auto;
+    background-color: #d0343f;
+    background-image: url(../coffeimg/Shape\ \(2\).png);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 33px;
+    }
+    .menu h2{
+    font-size: 4.6lvw;
+    }
+    .menu .menu-info{
+    width: 70%;
+    margin: auto;
+    line-height: 27px;
+    font-size: 1.7lvw;
+    padding: 22px;
+    }
+    .menu-carousal{
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+    }
+    .swiper {
+      width: auto;
+      height: auto;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card{
+      width: lvw;
+      height: 25lvw !important;
+      display: flex !important;
+      color: black;
+    }
+  .card .part-1{
+    width: 50%;
+    height: 100%;
+  }
+  .card .part-2{
+    width: 50%; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card .part-2 h2{
+  font-size: 2.5lvw;
+  color: #d0343f;
+  }
+  .card .part-2 p{
+  font-size: 1.2lvw;
+  text-align: left;
+  text-align: center;
+  padding: 15px;
+  }
+  .card .part-2 button{
+  width: 10lvw;
+  height: 3lvw;
+  font-size: 1lvw;
+  background-color: #d0343f;
+  color:#f8eed3;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  }
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    left: 0;
+    width: 100%;
+    position: static;
+    padding-top: 22px;
+    background: transparent;
+  }
+    /* ...existing styles... */
+    
+    .swiper-pagination-bullet {
+      background-color: white !important; /* Set the background color to white */
+     background: transparent !important;
+     border: 2px solid #f8eed3;
+    }
+    
+    .swiper-pagination-bullet-active {
+      background-color: #f8eed3 !important; /* Set the active bullet color (if needed) */
+       background: white !important;
+    }
+  
+    /* menu-section-close */
+    /* store section start */
+    .store-section{
+    width: 100%;
+    height: auto;
+    background-color: #f8eed3;
+    padding: 30px;
+    }
+    .store-section h2{
+    font-size: 4lvw;
+    font-family: normal;
+    text-align: center;
+    color: red;
+    }
+    .store-section .store-content{
+    width: 70%;
+    margin: auto;
+    font-size: 1.7lvw;
+    text-align: center;
+    color: red;
+    }
+    .store-section .store-titile{
+    padding: 30px;
+    }
+    .store-cards-section{
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 22px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    }
+    .store-cards-section .store-card{
+    /* height: 550px; */
+    /* width: 350px; */
+    width: 27.0lvw;
+    height: 39.7lvw;
+    position: relative;
+    }
+    .store-cards-section .store-card .store-card-img{
+    height: 50%;
+    }
+  
+    .store-cards-section .store-card .store-card-img img{
+    width: 100%;
+    height: 100%;
+    }
+    .store-cards-section .store-card .store-card-info{
+    height: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .store-cards-section .store-card .store-card-info .content-text{
+    color: black;
+    font-size: 17px;
+    font-size: 1.4lvw;
+    padding:3.4lvw 0px 17px 0px;
+    }
+    .Corpertum-btn{
+    width: 17lvw;
+    height: 5lvw;;
+    background-color: #f8eed3;
+    position: absolute;
+    top: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .Corpertum-btn button{
+    /* width: 195px; */
+    /* height: 65px; */
+    width: 15.3lvw;
+    height: 3.9lvw;
+    border: 2px solid #d0343f;
+    background-color: transparent;
+    font-size: 2.2lvw;
+    font-family: normal;
+    color: #d0343f;
+    font-weight: bold;
+    }
+    .store-cards-section .store-card .store-card-info .Visit-btn{
+    width: 11.3lvw;
+    height: 3.2lvw;
+    font-size: 1.6lvw;
+    font-family: normal;
+    background-color: #d0343f;
+    color: #f8eed3;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    }
+    /* store section close */
+    /* company-profile-section-start */
+    .company-profile{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #d0343f;
+    background-image: url(../coffeimg/Shape\ \(2\).png);
+    background-size: cover;
+    }
+    .company-profile .part-1{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+   
+  
+    .company-profile .part-2{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .company-profile .part-2 .part-2-content h2{
+    font-size: 4lvw;
+    font-family: normal;
+    color: #f8eed3;
+    text-align: center;
+    }
+    .company-profile .part-2 .part-2-content .plain-text{
+    width: 90%;
+    margin: auto;
+    padding: 3lvw;
+    }
+  
+    .company-profile .part-2 .part-2-content p{
+    color: #f8eed3;
+    font-size: 1.7lvw;
+    line-height: 2.2lvw;
+  
+    }
+    .company-profile iframe{
+    width: 50.3lvw;
+    height: 39.2lvw;
+    padding: 50px;
+    }
+    .company-profile .part-2 ul{
+    display: flex;
+    margin: auto;
+    }
+    .company-profile .part-2 .section-icons{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    background-color: #d0343f;
+    }
+    .share-icon{
+    width: 3.4lvw;
+    height: 3.4lvw;
+    background-color: #f8eed3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin-left: 16px;
+    font-size: 1.9lvw;
+    }
+    /* company-profile-section-close */
+    /* map-area-start */
+    .map-area{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    }
+    .map-area .map{
+    width: 50%;
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+  
+    .map-area .contact-area{
+    width: 50%;
+    height: 100%;
+    }
+    .map-area .map{
+      width: 250px;
+      height: 250px;
+    }
+  
+    .map-area .contact-area h2{
+    color: red;
+    font-size: 4lvw;
+    text-indent: 43px;
+    }
+    .map-area{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .map-area .map{
+    width: 50%;
+    height: auto;
+    }
+    .map-area .contact-area{
+    width: 50%;
+    height: auto;
+    padding-top: 50px;
+    }
+    .map-area .contact-area .form{
+    width: 100%;
+    height: auto;
+    padding: 20px 50px 50px 50px;
+    margin: auto;
+    }
+    .map-area .contact-area .form input{
+    width: 100%;
+    height: 3.5lvw;
+    /* height: 20px !important; */
+    outline: none;
+    border: none;
+    font-size: 4.3lvb;
+    padding-left: 33px;
+    background-color: #efefef;
+    }
+    ::placeholder{
+    color: #b0b0b0;
+    font-size: 3.3lvb;
+    }
+    .map-area .contact-area .form textarea{
+    width: 100%;
+    height: 13.5lvw;
+    outline: none;
+    padding-top: 20px;
+    border: none;
+    font-size: 4.3lvb;
+    padding-left: 33px;
+    background-color: #efefef;
+    }
+  
+    .map-area .contact-area .form button{
+    width: 12vw;
+    height: 3.5vw;
+    transform: translateY(22px);
+    background-color: #d0343f;
+    color: #f8eed3;
+    font-size: 1.5lvw;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    }
+    /* map-area-close */
+    /* footer-start */
+    footer{
+    width: 100%;
+    height: auto;
+    background-color: #d0343f;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding: 40px;
+    }
+    .footer-logo{
+    display: flex;
+    justify-content: right;
+    }
+    footer{
+    color: white;
+    text-align: center;
+    }
+    footer span{
+    font-size: 25px;
+    color: #f8eed3;
+    }
+    footer ul{
+    padding: 10px;
+    }
+    footer ul li{
+    padding-top: 10px;
+    }
+    footer a{
+    color: white;
+    }
+    footer .link1 p{
+    padding: 30px;
+    padding-inline: 30px;
+    text-align: left;
+    }
+    .coppyright-section{
+    text-align: center;
+    }
+    .coppyright-section p{
+    color: #f8eed3;
+    font-size: 17px;
+    text-align: center;
+    padding-inline: 22px;
+    }
+    .footer-icons{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    }
+    .footer-icons ul {
+    display: flex;
+    }
+    .footer-icons ul .share-icon{
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    }
+    .footer-icons ul .share-icon a{
+    color: #d0343f;
+    }
+    /* footer-close */
+  

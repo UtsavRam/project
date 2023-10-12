@@ -1,0 +1,221 @@
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .row-1 {
+        margin: 10px;
+        gap: 10px;
+    }
+
+
+    .row-2-text {
+        margin-left: 50px;
+        padding-left: 50px;
+    }
+
+    .row-2-text a {
+        margin: 30px;
+    }
+
+    .c-logo .first,
+    .r-logo .r-first {
+        width: 150px;
+    }
+
+    .c-contenar,
+    .y-contenar,
+    .r-contenar {
+        width: 280px;
+        height: 700px;
+    }
+
+    .c-button,
+    .y-button,
+    .r-button {
+        width: 280px;
+        height: 50px;
+    }
+
+    .line,
+    .y-line,
+    .r-line {
+        width: 200px;
+    }
+
+    .c-img img,
+    .y-img img,
+    .r-img img {
+        width: 280px;
+        height: 200px;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .row-1 {
+        margin: 0px;
+        gap: 0px;
+    }
+    nav ul li 
+    {
+        margin: 20px;
+        /* margin-top: 10px; */
+    }
+    .row-1-text 
+    {
+        margin: 17px;
+    }
+    .row-1-logo
+    {
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+    .row-2-text {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .row-2-text a {
+        margin: 30px;
+    }
+
+    .c-logo .first,
+    .r-logo .r-first {
+        width: 100px;
+    }
+
+    .c-contenar,
+    .y-contenar,
+    .r-contenar {
+        width: 220px;
+        height: 550px;
+    }
+
+    .c-button,
+    .y-button,
+    .r-button {
+        width: 220px;
+        height: 50px;
+    }
+
+    .line,
+    .y-line,
+    .r-line {
+        width: 200px;
+    }
+
+    .c-img img,
+    .y-img img,
+    .r-img img {
+        width: 220px;
+        height: 160px;
+    }
+
+    .c-text,
+    .y-text,
+    .r-text {
+        font-size: 17px;
+    }
+
+    .c-non span,
+    .y-non span,
+    .r-non span 
+    {
+        font-size: 13px;
+    }
+
+    .c-non p ,
+    .y-non p ,
+    .r-non p 
+    {
+        font-size: 25px;
+    }
+    .c-star , .y-star , .r-star
+    {
+        font-size: 16px;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    nav ul li 
+    {
+        margin: 9px;
+    }
+    .row-2-text {
+        padding-left: 50px;
+    }
+    
+    .row-2-text a , nav ul li a{
+        font-size: 10px;
+        margin: 1px;
+    }
+
+    .c-logo .first,
+    .y-logo .y-first,
+    .r-logo .r-first {
+        width: 100px;
+    }
+    .c-logo .second,
+    .r-logo .second
+    {
+       width: 40px;
+    }
+    .c-contenar,
+    .y-contenar,
+    .r-contenar {
+        width: 185px;
+        height: 490px;
+        margin: 10px;
+    }
+
+    .c-button,
+    .y-button,
+    .r-button {
+        width: 185px;
+        height: 30px;
+        font-size: 10px;
+        margin: 0px;
+    }
+
+    .line,
+    .y-line,
+    .r-line {
+        width: 140px;
+    }
+
+    .c-img img,
+    .y-img img,
+    .r-img img {
+        width: 185px;
+        height: 150px;
+    }
+
+    .c-text,
+    .y-text,
+    .r-text {
+        font-size: 13px;
+    }
+
+    .c-non span,
+    .y-non span,
+    .r-non span 
+    {
+        font-size: 10px;
+    }
+
+    .c-non p ,
+    .y-non p ,
+    .r-non p 
+    {
+        font-size: 19px;
+    }
+    .c-star , .y-star , .r-star
+    {
+        font-size: 12px;
+    }
+}
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}

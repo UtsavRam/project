@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@100&family=Playfair:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <!-- header-start -->
+    <header>
+        <nav>
+            <div class="nav-right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Menu</a></li>
+                </ul>
+            </div>
+            <div class="nav-brand">
+                <img src="../coffeimg/logo3.png" alt="">
+            </div>
+            <div class="nav-left">
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <span class="menu-bar" onclick="openNav()">
+            <i class="fa-solid fa-bars"></i>
+        </span>
+        <!-- slide-Menu-start -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul>
+                <li><a href="#" onclick="closeNav()">Home</a></li>
+                <li><a href="#about" onclick="closeNav()">About</a></li>
+                <li><a href="#skills" onclick="closeNav()">Menu</a></li>
+                <li><a href="#portfolio" onclick="closeNav()">Blog</a></li>
+                <li><a href="#work" onclick="closeNav()">Shop</a></li>
+                <li><a href="#contact" onclick="closeNav()">Contact</a></li>
+            </ul>
+        </div>
+        <!-- slide-Menu-close -->
+
+    </header>
+    <!-- header-close -->
+    <!-- banner-1-start -->
+    <div class="banner-1">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <img class="swiper-slide" src="../coffeimg/slide-1.png" alt="">
+                <!-- <img class="swiper-slide" src="../coffeimg/slide-1.png" alt="">
+                <img class="swiper-slide" src="../coffeimg/slide-1.png" alt="">
+                <img class="swiper-slide" src="../coffeimg/slide-1.png" alt="">
+                <img class="swiper-slide" src="../coffeimg/slide-1.png" alt=""> -->
+            </div>
+        </div>
+        <div class="banner-1-info">
+            <div>
+                <h1>Morning</h1>
+                <h1>Coffee Routine</h1>
+                <div class="content">
+                    <p>
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum.
+                    </p>
+                </div>
+                <button>
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- banner-1-close -->
+    <!-- offer-section-start -->
+    <section class="offers">
+        <div class="Coffee-brand">
+            <img src="../coffeimg/logo2.png" alt="">
+        </div>
+        <div class="offers-info">
+            <div class="offers-content">
+                <span>Gift Voucher</span>
+                <h2>1 Free Cup Of Coffee</h2>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <button>
+                    Claim Voucher Here
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- offer-section-close -->
+    <!-- best brand section-start -->
+    <article class="best-brand">
+        <div class="brand-image">
+            <img src="../coffeimg/cap.png" alt="">
+        </div>
+        <div class="brand-info">
+            <div>
+                <h2>Best Coffee</h2>
+                <h2>Brand in NYC</h2>
+                <div class="story-content">
+                    <p>Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Dictum fusce ut
+                        placerat orci nulla pellentesque dignissim enim sit. Volutpat lacus laoreet non curabitur
+                        gravida. Dictum sit amet justo donec enim. Eu scelerisque felis imperdiet proin fermentum leo
+                        vel. Tincidunt lobortis feugiat vivamus at augue. Porttitor massa id neque aliquam vestibulum.
+                    </p>
+                    <a href="#">Read Story</a>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!-- best brand section-close -->
+    <!-- Menu-section-start -->
+    <section class="menu">
+        <h2>Menu</h2>
+        <div class="menu-info">
+            <p>
+                Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Dictum fusce ut
+                placerat orci nulla pellentesque dignissim enim sit.
+            </p>
+        </div>
+        <div class="swiper myimgSwiper">
+            <div class="swiper-wrapper">
+                <div class="card swiper-slide">
+                    <div class="part-1">
+                        <img src="../coffeimg/cofee1.png" alt="">
+                    </div>
+                    <div class="part-2">
+                        <div>
+                            <h2>Long Black</h2>
+                            <p>
+                                Volutpat lacus laoreet non curabitur. Ullamcorper dignissim cras tincidunt lobortis
+                                feugiat vivamus at augue eget. Suscipit adipiscing bibendum est ultricies integer
+                            </p>
+                            <div>
+                                <button>
+                                    Order Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card swiper-slide">
+                    <div class="part-1">
+                        <img src="../coffeimg/coffe2.png" alt="">
+
+                    </div>
+                    <div class="part-2">
+                        <div>
+                            <h2>Long Black</h2>
+                            <p>
+                                Volutpat lacus laoreet non curabitur. Ullamcorper dignissim cras tincidunt lobortis
+                                feugiat vivamus at augue eget. Suscipit adipiscing bibendum est ultricies integer
+                            </p>
+                            <div>
+                                <button>
+                                    Order Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="part-1">
+                        <img src="../coffeimg/cofee1.png" alt="">
+
+                    </div>
+                    <div class="part-2">
+                        <div>
+                            <h2>Long Black</h2>
+                            <p>
+                                Volutpat lacus laoreet non curabitur. Ullamcorper dignissim cras tincidunt lobortis
+                                feugiat vivamus at augue eget. Suscipit adipiscing bibendum est ultricies integer
+                            </p>
+                            <div>
+                                <button>
+                                    Order Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="part-1">
+                        <img src="../coffeimg/coffe3.png" alt="">
+                    </div>
+                    <div class="part-2">
+                        <div>
+                            <h2>Long Black</h2>
+                            <p>
+                                Volutpat lacus laoreet non curabitur. Ullamcorper dignissim cras tincidunt lobortis
+                                feugiat vivamus at augue eget. Suscipit adipiscing bibendum est ultricies integer
+                            </p>
+                            <div>
+                                <button>
+                                    Order Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="part-1">
+                        <img src="../coffeimg/coffe2.png" alt="">
+
+                    </div>
+                    <div class="part-2">
+                        <div>
+                            <h2>Long Black</h2>
+                            <p>
+                                Volutpat lacus laoreet non curabitur. Ullamcorper dignissim cras tincidunt lobortis
+                                feugiat vivamus at augue eget. Suscipit adipiscing bibendum est ultricies integer
+                            </p>
+                            <div>
+                                <button>
+                                    Order Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="part-1">
+                        <img src="../coffeimg/cofee1.png" alt="">
+
+                    </div>
+                    <div class="part-2">
+                        <div>
+                            <h2>Long Black</h2>
+                            <p>
+                                Volutpat lacus laoreet non curabitur. Ullamcorper dignissim cras tincidunt lobortis
+                                feugiat vivamus at augue eget. Suscipit adipiscing bibendum est ultricies integer
+                            </p>
+                            <div>
+                                <button>
+                                    Order Now
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="part-1">
+                        <img src="../coffeimg/coffe3.png" alt="">
+                    </div>
+                    <div class="part-2">
+                        <div>
+                            <h2>Long Black</h2>
+                            <p>
+                                Volutpat lacus laoreet non curabitur. Ullamcorper dignissim cras tincidunt lobortis
+                                feugiat vivamus at augue eget. Suscipit adipiscing bibendum est ultricies integer
+                            </p>
+                            <div>
+                                <button>
+                                    Order Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="part-1">
+                        <img src="../coffeimg/coffe2.png" alt="">
+
+                    </div>
+                    <div class="part-2">
+                        <div>
+                            <h2>Long Black</h2>
+                            <p>
+                                Volutpat lacus laoreet non curabitur. Ullamcorper dignissim cras tincidunt lobortis
+                                feugiat vivamus at augue eget. Suscipit adipiscing bibendum est ultricies integer
+                            </p>
+                            <div>
+                                <button>
+                                    Order Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="part-1">
+                        <img src="../coffeimg/cofee1.png" alt="">
+
+                    </div>
+                    <div class="part-2">
+                        <div>
+                            <h2>Long Black</h2>
+                            <p>
+                                Volutpat lacus laoreet non curabitur. Ullamcorper dignissim cras tincidunt lobortis
+                                feugiat vivamus at augue eget. Suscipit adipiscing bibendum est ultricies integer
+                            </p>
+                            <div>
+                                <button>
+                                    Order Now
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+
+
+    </section>
+    <!-- store-section-store -->
+    <div class="store-section">
+        <div class="store-titile">
+            <h2>Store</h2>
+            <div class="store-content">
+                <p>
+                    Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Dictum fusce ut
+                    placerat orci nulla pellentesque dignissim enim sit.
+                </p>
+            </div>
+        </div>
+        <div class="store-cards-section">
+            <div class="store-card">
+                <div class="store-card-img">
+                    <img src="../coffeimg/libary1.png" alt="">
+                </div>
+                <div class="store-card-info">
+                    <div class="Corpertum-btn">
+                        <button>
+                            Corpertum
+                        </button>
+                    </div>
+                    <div class="store-content">
+                        <p class="content-text">
+                            A lacus vestibulum sed. Amet purus gravida quis blandit turpis. Enim facilisis gravida neque
+                            convallis.
+                        </p>
+                        <button class="Visit-btn">
+                            Visit Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="store-card">
+                <div class="store-card-img">
+                    <img src="../coffeimg/libary2.png" alt="">
+                </div>
+                <div class="store-card-info">
+                    <div class="Corpertum-btn">
+                        <button>
+                            Corpertum
+                        </button>
+                    </div>
+                    <div class="store-content">
+                        <p class="content-text">
+                            A lacus vestibulum sed. Amet purus gravida quis blandit turpis. Enim facilisis gravida neque
+                            convallis.
+                        </p>
+                        <button class="Visit-btn">
+                            Visit Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="store-card">
+                <div class="store-card-img">
+                    <img src="../coffeimg/libary3.png" alt="">
+
+
+                </div>
+                <div class="store-card-info">
+                    <div class="Corpertum-btn">
+                        <button>
+                            Corpertum
+                        </button>
+                    </div>
+                    <div class="store-content">
+                        <p class="content-text">
+                            A lacus vestibulum sed. Amet purus gravida quis blandit turpis. Enim facilisis gravida neque
+                            convallis.
+                        </p>
+                        <button class="Visit-btn">
+                            Visit Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- store-section-close -->
+    <!-- company-profile-start -->
+    <div class="company-profile">
+        <div class="part-1">
+            <iframe src="../coffeimg/coffee-viedo.mp4" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+        <div class="part-2">
+            <div class="part-2-content">
+                <h2>
+                    Company Profile
+                </h2>
+                <div>
+                    <p class="plain-text">
+                        Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Dictum fusce
+                        ut placerat orci nulla pellentesque dignissim enim sit.
+                    </p>
+                    <div class="section-icons">
+                        <ul>
+                            <li>
+                                <div class="share-icon">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="share-icon">
+                                    <a href="#">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="share-icon">
+                                    <a href="#">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- company-profile-close -->
+    <!-- map-area start-->
+    <div class="map-area">
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14687.735827717079!2d72.5559743!3d23.026197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1688211660772!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact-area">
+            <h2>Contact Us </h2>
+            <div class="form">
+                <input type="text" name="" id="" placeholder="Your Name"><br><br>
+                <input type="text" name="" id="" placeholder="Gender"><br><br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Messages"></textarea>
+                <button>
+                    Send Message
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- map-area close-->
+    <!-- footer-start -->
+    <footer>
+        <div class="footer-logo">
+            <img src="../coffeimg/logo2.png" alt="">
+        </div>
+        <div class="link1">
+            <span>Your Company</span>
+            <p>
+                Halimun Street 25
+                Jakarta, Indonesia
+                12850
+            </p>
+            <h3>
+                www.yourdomain.com
+            </h3>
+        </div>
+        <div class="link2">
+            <span>Sitemap</span>
+
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="">Store</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="link3">
+            <span>Loren Ipsum</span>
+            <ul>
+                <li><a href="#">Neque</a></li>
+                <li><a href="#">suspendisse</a></li>
+                <li><a href="#">Dictum</a></li>
+                <li><a href="#">Porttitor</a></li>
+                <li><a href="#">Tincidunt</a></li>
+                <li><a href="#">Enim lobortis</a></li>
+            </ul>
+        </div>
+        <div class="link4">
+            <span>Sit Amet</span>
+            <ul>
+                <li><a href="">Neque</a></li>
+                <li><a href="">suspendisse</a></li>
+                <li><a href="">Dictum</a></li>
+                <li><a href="">Porttitor</a></li>
+                <li><a href="">Tincidunt</a></li>
+                <li><a href="">Enim lobortis</a></li>
+            </ul>
+        </div>
+        <div class="coppyright-section">
+            <img src="images/logo.png" alt="">
+            <p>Copyright © 2020 Freepik
+                Company S.L. All rights reserved.</p>
+            <div class="footer-icons">
+                <ul>
+                    <li>
+                        <div class="share-icon">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="share-icon">
+                            <a href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="share-icon">
+                            <a href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- footer-close -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+        var side = document.getElementById("mySidenav");
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+
+
+        let img_arr = document.querySelectorAll('.banner-1 .box img');
+        let currentIndex = 0;
+        let intervalId;
+
+        function slideImages(n) {
+            currentIndex = currentIndex + n;
+
+            if (currentIndex < 0) {
+                currentIndex = img_arr.length - 1;
+                img_arr[currentIndex].style.transition = "none";
+            } else if (currentIndex >= img_arr.length) {
+                currentIndex = 0;
+            }
+
+            for (let i = 0; i < img_arr.length; i++) {
+                img_arr[i].style.transform = `translateX(-${currentIndex * 100}%)`;
+                img_arr[i].style.transition = "1s";
+            }
+        }
+
+        function startAutoSlide() {
+            intervalId = setInterval(function () {
+                slideImages(1);
+            }, 3000); // Change the duration (in milliseconds) as needed
+        }
+
+        function stopAutoSlide() {
+            clearInterval(intervalId);
+        }
+
+        startAutoSlide();
+
+
+        // Start auto sliding on page load
+        var swiper = new Swiper(".my-Swiper", {
+            slidesPerView: 2.5,
+            spaceBetween: 20,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            autoplay: {
+                delay: 3000, // Adjust the delay (in milliseconds) between slides
+            },
+        });
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                type: "progressbar",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            loop: true, // Enable continuous loop
+            autoplay: {
+                delay: 3000, // Delay between each slide in milliseconds
+                disableOnInteraction: false, // Allow interaction with swiper while autoplaying
+            },
+        });
+        var swiper = new Swiper(".myimgSwiper", {
+            slidesPerView: 2.5,
+            spaceBetween: 30,
+            autoplay: {
+                delay: 3000, // Time between each slide in milliseconds
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+    <div
+        style="text-align: right;position: fixed;z-index:9999999;bottom: 0;width: auto;right: 1%;cursor: pointer;line-height: 0;display:block !important;">
+        <a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank"
+            href="https://www.000webhost.com/?utm_source=000webhostapp&utm_campaign=000_logo&utm_medium=website&utm_content=footer_img"><img
+                src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"
+                alt="www.000webhost.com"></a>
+    </div>
+    <script>function getCookie(t) { for (var e = t + "=", n = decodeURIComponent(document.cookie).split(";"), o = 0; o < n.length; o++) { for (var i = n[o]; " " == i.charAt(0);)i = i.substring(1); if (0 == i.indexOf(e)) return i.substring(e.length, i.length) } return "" } getCookie("hostinger") && (document.cookie = "hostinger=;expires=Thu, 01 Jan 1970 00:00:01 GMT;", location.reload()); var wordpressAdminBody = document.getElementsByClassName("wp-admin")[0], notification = document.getElementsByClassName("notice notice-success is-dismissible"), hostingerLogo = document.getElementsByClassName("hlogo"), mainContent = document.getElementsByClassName("notice_content")[0]; if (null != wordpressAdminBody && notification.length > 0 && null != mainContent && new Date().toISOString().slice(0, 10) > '2022-10-01' && new Date().toISOString().slice(0, 10) < '2022-12-25') { var googleFont = document.createElement("link"); googleFontHref = document.createAttribute("href"), googleFontRel = document.createAttribute("rel"), googleFontHref.value = "https://fonts.googleapis.com/css?family=Roboto:300,400,600,700", googleFontRel.value = "stylesheet", googleFont.setAttributeNode(googleFontHref), googleFont.setAttributeNode(googleFontRel); var css = "@media only screen and (max-width: 576px) {#main_content {max-width: 320px !important;} #main_content h1 {font-size: 30px !important;} #main_content h2 {font-size: 40px !important; margin: 20px 0 !important;} #main_content p {font-size: 14px !important;} #main_content .content-wrapper {text-align: center !important;}} @media only screen and (max-width: 781px) {#main_content {margin: auto; justify-content: center; max-width: 445px;}} @media only screen and (max-width: 1325px) {.web-hosting-90-off-image-wrapper {position: absolute; max-width: 95% !important;} .notice_content {justify-content: center;} .web-hosting-90-off-image {opacity: 0.3;}} @media only screen and (min-width: 769px) {.notice_content {justify-content: space-between;} #main_content {margin-left: 5%; max-width: 445px;} .web-hosting-90-off-image-wrapper {position: absolute; display: flex; justify-content: center; width: 100%; }} .web-hosting-90-off-image {max-width: 90%;} .content-wrapper {min-height: 454px; display: flex; flex-direction: column; justify-content: center; z-index: 5} .notice_content {display: flex; align-items: center;} * {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;} .upgrade_button_red_sale{box-shadow: 0 2px 4px 0 rgba(255, 69, 70, 0.2); max-width: 350px; border: 0; border-radius: 3px; background-color: #ff4546 !important; padding: 15px 55px !important; font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 600; color: #ffffff;} .upgrade_button_red_sale:hover{color: #ffffff !important; background: #d10303 !important;}", style = document.createElement("style"), sheet = window.document.styleSheets[0]; style.styleSheet ? style.styleSheet.cssText = css : style.appendChild(document.createTextNode(css)), document.getElementsByTagName("head")[0].appendChild(style), document.getElementsByTagName("head")[0].appendChild(googleFont); var button = document.getElementsByClassName("upgrade_button_red")[0], link = button.parentElement; link.setAttribute("href", "https://www.hostinger.com/hosting-starter-offer?utm_source=000webhost&utm_medium=panel&utm_campaign=000-wp"), link.innerHTML = '<button class="upgrade_button_red_sale">Go for it</button>', (notification = notification[0]).setAttribute("style", "padding-bottom: 0; padding-top: 5px; background-color: #040713; background-size: cover; background-repeat: no-repeat; color: #ffffff; border-left-color: #040713;"), notification.className = "notice notice-error is-dismissible"; var mainContentHolder = document.getElementById("main_content"); mainContentHolder.setAttribute("style", "padding: 0;"), hostingerLogo[0].remove(); var h1Tag = notification.getElementsByTagName("H1")[0]; h1Tag.className = "000-h1", h1Tag.innerHTML = "Black Friday Prices", h1Tag.setAttribute("style", 'color: white; font-family: "Roboto", sans-serif; font-size: 22px; font-weight: 700; text-transform: uppercase;'); var h2Tag = document.createElement("H2"); h2Tag.innerHTML = "Get 90% Off!", h2Tag.setAttribute("style", 'color: white; margin: 10px 0 15px 0; font-family: "Roboto", sans-serif; font-size: 60px; font-weight: 700; line-height: 1;'), h1Tag.parentNode.insertBefore(h2Tag, h1Tag.nextSibling); var paragraph = notification.getElementsByTagName("p")[0]; paragraph.innerHTML = "Get Web Hosting for $0.99/month + SSL Certificate for FREE!", paragraph.setAttribute("style", 'font-family: "Roboto", sans-serif; font-size: 16px; font-weight: 700; margin-bottom: 15px;'); var list = notification.getElementsByTagName("UL")[0]; list.remove(); var org_html = mainContent.innerHTML, new_html = '<div class="content-wrapper">' + mainContent.innerHTML + '</div><div class="web-hosting-90-off-image-wrapper"><img class="web-hosting-90-off-image" src="https://cdn.000webhost.com/000webhost/promotions/bf-2020-wp-inject-img.png"></div>'; mainContent.innerHTML = new_html; var saleImage = mainContent.getElementsByClassName("web-hosting-90-off-image")[0] } else if (null != wordpressAdminBody && notification.length > 0 && null != mainContent) { var bulletPoints = mainContent.getElementsByTagName('li'); var replacement = ['Increased performance (up to 5x faster) - Thanks to Hostinger’s WordPress Acceleration and Caching solutions', 'WordPress AI tools - Creating a new website has never been easier', 'Weekly or daily backups - Your data will always be safe', 'Fast and dedicated 24/7 support - Ready to help you', 'Migration of your current WordPress sites to Hostinger is automatic and free!', 'Try Premium Web Hosting now - starting from $1.99/mo']; for (var i = 0; i < bulletPoints.length; i++) { bulletPoints[i].innerHTML = replacement[i]; } }</script>
+</body>
+
+</html>
