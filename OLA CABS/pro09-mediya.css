@@ -1,0 +1,273 @@
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+    
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .social {
+        padding-right: 30px;
+        font-size: 35px;
+    }
+    .sub-main-container {
+        padding-block: 14px;
+        padding-left: 0px;
+        width: 95%;
+        padding-right: 11px;
+    }
+    .green {
+        margin-top: 92px;
+    }
+    .stay {
+        margin-left: 30px;
+    }
+
+    .logo1 {
+        display: none;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .nav2 {
+        gap: 25px;
+        width: 0%;
+    }
+    .moving {
+        width: 108%;
+        background-position: left;
+        height: 62vh;
+    }
+
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .social {
+        padding-right: 30px;
+        font-size: 35px;
+    }
+
+    .stay {
+        margin-left: 30px;
+    }
+
+    .logo1 {
+        display: none;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .nav2 {
+        gap: 25px;
+        width: 0%;
+    }
+
+    .sub-main-container {
+        padding-block: 14px;
+        padding-left: 0px;
+        padding-right: 19px;
+    }
+
+    .third {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .images .more {
+        width: 150px;
+        gap: 30px;
+    }
+
+    .green {
+        margin-top: 92px;
+    }
+
+    .sub-main-container {
+        padding-block: 14px;
+        padding-left: 0px;
+        padding-right: 40px;
+        gap: 24px;
+    }
+
+    .moving {
+        width: 108%;
+        background-position: left;
+        height: 62vh;
+    }
+
+    .sub-main-container>button,
+    .stay>button {
+        font-size: 9px;
+        cursor: pointer;
+    }
+
+    input {
+        padding-block: 12px;
+        padding-left: 6px;
+        padding-right: 20px;
+    }
+
+    logo {
+        padding: 11px;
+        padding-left: 7px;
+        padding-right: 29px;
+    }
+
+    .nav2 {
+        gap: 22px;
+        width: 41%;
+        margin-right: 50px;
+    }
+
+    .section h1 {
+        font-size: 25px;
+    }
+
+    .section1 h1 {
+        font-size: 25px;
+    }
+
+    .box {
+        height: 120px;
+    }
+
+    .cardes .card {
+        gap: 70px;
+    }
+
+    .cardes {
+        width: 70%;
+        margin: 0 auto;
+        transform: skewY(2deg);
+        padding-bottom: 190px;
+
+    }
+
+    .p0 {
+        font-size: 22px;
+        font-weight: 550;
+    }
+
+    .p1 {
+        font-size: 14px;
+        font-weight: 550;
+    }
+
+    .p2 {
+        font-size: 8px;
+        font-weight: 400;
+        color: rgb(113, 112, 116);
+    }
+
+    .content p {
+        font-size: 12px;
+    }
+
+    .content1 p {
+        font-size: 12px;
+    }
+
+    .content1 h3 {
+        font-size: 15px;
+        margin-right: 80px;
+    }
+
+    .section4>h1 {
+        font-size: 35px;
+    }
+
+    .card1>h3 {
+        font-size: 13px;
+    }
+
+    .card1>p {
+        font-size: 10px;
+    }
+
+    .col-50>h1 {
+        font-size: 21px;
+    }
+
+    .content2>h3 {
+        font-size: 16px;
+    }
+
+    .content2>p {
+        font-size: 12px;
+    }
+
+    .background1>h1 {
+        font-size: 19px;
+    }
+
+    .first p+p {
+        font-size: 8px;
+    }
+
+    .col-50-1>h3 {
+        font-size: 14px;
+    }
+
+    .card2 p {
+        font-size: 7px;
+    }
+    .section6>h1
+    {
+        font-size: 31px;
+    }
+    .content4 p {
+        font-size: 8px;
+    }
+    .blogs h3 {
+        font-size: 12px;
+    }
+    .section8>h1 {
+        font-size: 27px;
+    }
+    .text p {
+        font-size: 14px;
+    }
+    .app>p {
+        font-size: 10px;
+    }
+    .cont {
+        font-size: 13px;
+        gap: 47px;
+    }
+}
+
+/*  Small devices (landscape phones, less than 768px)  */
+@media (max-width: 767.98px) {
+    .nav1>ul>li
+    {
+        display: none;
+    }
+    .nav2>button
+    {
+        display: none;
+    }
+    .nav2>.logo1
+    {
+        display: block;
+    }
+    nav 
+    {
+        width: 100%;
+    }
+    .nav2{
+        width: 0%;
+        background-color: brown;
+    }
+    .logo1
+    {
+        margin-right: 100px;
+    }
+}
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}

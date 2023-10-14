@@ -1,0 +1,527 @@
+@media (max-width: 600px) {
+    .nevbar
+    {
+        /* position: relative; */
+    }
+    .logo{
+        padding-left:20px;
+       
+    } 
+
+    .img1
+    {
+        height: 40px;
+        width: 100%;
+        margin-right: 80px;
+        /* background-color: aqua; */
+        /* padding-bottom: 100px */
+    }
+    .list
+    {
+        /* background-color: blue; */
+        padding-left: 100px;
+        /* margin-left: 100px; */
+    }
+    .menu1{ display: none;}
+    .menu{
+        display: block;
+        margin-left: 100px;
+        width: 70%;
+        padding-left: 60px;
+        /* margin-top: 10px; */
+        padding-bottom: 10px;
+        /* background-color: aqua; */
+    }
+    .srech{
+        display: none;
+    }
+    .menu2
+    {
+        display: none;
+        flex-direction: column;
+    
+    }
+    .menu:hover .menu2{
+        display: block;
+    }
+    .background
+    {
+       position: relative;
+       height:290px;
+    }
+    .box
+    {
+        position: absolute;
+        margin-top: -150px;
+        /* padding-top: 100px; */
+    }
+    .title
+    {
+        
+        /* color: black; */
+        font-size: 10px;
+        /* background-color: aqua; */
+        margin-left: 40px;
+        
+    }
+    .pre
+    {
+        font-size: 10px;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    .button-01
+    {
+        font-size: 10px;
+        /* margin-left: 50px; */
+    }
+    .but
+    {
+        font-size: 10px;
+        margin-left: 40px;
+    }
+/* ......................................2.................................................... */
+    .dan1
+    {
+       font-size: 40px;
+    }
+    .pre-011
+    {
+        font-size: 5px;
+        margin-left: 50px;
+        /* padding-bottom: 50px; */
+        padding-top: 10px;
+        /* height:50px; */
+        
+    }
+    .pre-01
+    {
+        font-size: 13px;
+        width: 100%;
+        padding-top: 20px;
+        margin-top: 5px;
+        margin-left:10px;
+        padding-left:1px;
+        margin-bottom: 5px;
+    }
+    .img2
+    {
+        /* height: 100px; */
+        width: 100%;
+    }
+    .img3
+    {
+        
+        width: 100%;
+       
+    }
+    .img4
+    {
+       
+        width: 100%;
+    }
+    .boys
+    {
+        margin-left: 20px;
+        display: block ;
+        /* background-color: blue; */
+        width: 85%;
+     
+    }
+    .boy1
+    {
+        /* margin-right:100px; */
+        margin-top:10px;
+        width: 80%;
+        /* padding-right: 80px; */
+
+    }
+    .boy2
+    {
+        /* margin-right:100px; */
+        margin-top:10px;
+        width: 80%;
+        padding-bottom: 50px;
+        
+    }
+    .boy3
+    {
+       
+        margin-top:10px;
+        width: 80%;
+       padding-bottom: 50px;
+    }
+    .h1-02
+    {
+        font-size: 25px;
+    }
+    .para
+    {
+        font-size:15px;
+    }
+/* ......................................3.................................................... */
+    .Pricing1
+    {
+        font-size: 40px;
+    }
+    
+    .pre-02
+    {
+        font-size: 10px;
+        /* background-color: red; */
+        text-align: center;
+        padding-top: 20px;
+        /* padding-left: 20px; */
+        /* margin-top: 5px; */
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+       
+    }
+
+    .ribbin
+    {
+        display: block;
+        font-size: 14px;
+        width: 85%;
+        /* background-color: blue; */
+        margin-left: 60px;
+        
+
+    }
+    .ribbin1
+    {
+        padding-bottom: 50px;
+        width: 80%;
+    }
+    .ribbin3
+    {
+        padding-bottom: 50px;
+        width:80%;
+    }
+    .ribbin2
+    {
+        width:80%;
+    }
+    
+/* ......................................4.................................................... */
+    .box3
+    {
+        width: 100%;
+        
+    }
+    .img8
+    {
+        /* width: 100%; */
+    }
+    .cont15
+    {
+        font-size:10px;
+        padding-left: 20px;
+        width: 50%;
+        /* padding-top: -90px; */
+        /* margin-top: -90px; */
+    }
+    .hh
+    {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: -90px;
+        margin-left: 5px;
+        padding-top: 100px;
+        /* padding-left:100px; */
+    
+        /* padding-top: -90px; */
+    }
+   .pp
+   {
+        font-size: 12px;
+        width: 50%;
+        padding-top:-30px;
+        /* padding-left: -100px; */
+        width: 95%;
+        margin-left: 5px;
+        /* padding-right: 100px; */
+   }
+   .btn
+   {
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left: 5px;
+   }
+    /* ...........................................................5........................................................... */
+   .hhh
+    {
+        font-size: 20px;
+        margin-top:-90px;
+        padding-top:-40px;
+        margin-left: 30px;
+        font-weight: 400;
+    }
+    .ppp
+    {
+        font-size: 12px;
+        margin-left: 30px;
+        width: 89%;
+    }
+    .b5
+    {
+        font-size:10px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+       /* ...........................................................6........................................................... */
+       .box5
+       {
+        padding-bottom: 1px;
+       }
+       
+       .ours
+       {
+        font-size: 30px;
+       }
+       .lidsa
+       {
+        font-size: 15px;
+       }
+       .numberic
+       {
+        font-size: 12px;
+        margin-left: 30px;
+        margin-top: 50px;
+        padding-left: 20px;
+        width: 90%;
+        padding-bottom: 2px;
+        /* background-color: yellowgreen; */
+       }
+       
+       /* ...........................................................7........................................................... */
+
+       .orngb
+       {
+        font-size: 15px;
+        padding-bottom: 10px;
+        padding-top: 70px;
+       }
+       .p7
+       {
+        font-size: 15px;
+        margin-top: -2px;
+        /* height: 500px; */
+       }
+       .p7_1
+       {
+        margin-top: -5px;
+       }
+       .hh7_1
+       {
+        padding-bottom:5px;
+       }
+       
+     /* ...........................................................8........................................................... */
+
+     .sub_1
+     {
+        font-size: 30px;
+        padding-top: 50px;
+     }
+     .p8
+     {
+        font-size: 15px;
+     }
+     .inp
+     {
+         width: 100%;
+         padding-left: 20px;
+         
+     }
+     input
+     {
+        height: 20px;
+        width: 60%;
+        border-radius: 2px;
+        /* padding-bottom: 40px; */
+        /* font-size: 15px; */
+     }
+     .but81
+     {
+        /* font-size: 20px; */
+        margin-top: 20px;
+        height: 20px;
+        margin-top: 2px;
+        padding-bottom: 22px;
+        border-radius: 2px;
+     }
+     
+     /* ...........................................................9........................................................... */
+
+     .maindiv_1
+     {
+        font-size: 15px;
+        padding-left: 20px;
+        padding-top: 50px;
+     }
+     .music
+     {
+        width: 45%;
+        /* background-color: aqua; */
+     }
+     .about
+     {
+        margin-left: 10px;
+        /* background-color: blue; */
+
+     }
+     .service
+     {
+        margin-left: 36px;
+        /* background-color: aqua; */
+     }
+     .other
+     {
+        
+        margin-left: 10px;
+        /* background-color: blue; */
+     }
+     .maindivv_2
+     {
+        font-size: 12px;
+        padding-left: 20px;
+     }
+     .prgh_1
+     {
+        
+        width: 45%;
+        /* background-color: aqua; */
+     }
+     .howto
+     {
+        
+        margin-left: 10px;
+        /* background-color: blue; */
+     }
+     .howtoo
+     {
+        
+        margin-left: 36px;
+        /* background-color: aqua; */
+     }
+     .maindivv_3
+     {
+        font-size: 12px;
+        padding-left: 20px;
+     }
+     .kha
+     {
+        
+        width: 45%;
+        /* background-color: aqua; */
+     }
+     .otp
+     {
+        margin-left: 36px;
+        /* background-color: aqua; */
+     }
+     .ot
+     {
+       
+        margin-left: 10px;
+        /* background-color: blue; */
+     }
+     .maindivv_4
+     {
+        
+        font-size: 12px;
+        padding-left: 20px;
+
+    }
+    .dni{
+        
+        width: 45%;
+        /* background-color: aqua; */
+
+    }
+    .bg
+    {
+        
+        margin-left: 10px;
+        /* font-size: 10px; */
+        width: 20%;
+        /* background-color: blue; */
+
+    }
+    .os
+    {
+        
+        margin-left: 10px;
+        /* background-color: blue; */
+    }
+    .pr
+    {
+        
+        margin-left: 10px;
+        /* background-color: blue; */
+
+    }
+    .maindivv_5
+    {
+        
+        font-size: 12px;
+        padding-left: 20px;
+    }
+    .ate
+    {
+        
+        width: 45%;
+        /* background-color: aqua; */
+    }
+    .tc
+    {
+        width: 22%;
+        margin-left: 10px;
+        /* background-color: blue; */
+    }
+    .maindivv_6
+    {
+        
+        font-size: 12px;
+        padding-left: 20px;
+    }
+    .inst_i i 
+    {
+        font-size: 16px;
+    }
+    .feb_i i
+    {
+        font-size: 16px;
+        
+    }
+    .tiw_i i
+    {
+        font-size: 16px;
+
+    }
+    .wat_i i
+    {
+        font-size: 16px;
+    }
+    .d_space
+    {
+        width: 36%;
+        /* background-color: blue; */
+    }
+    .prpo
+    {
+        margin-left: 40px;
+        width: 25%;
+        /* background-color: aqua; */
+    }
+    .pm
+    {
+        /* background-color: black; */
+        width: 30%;
+        margin-left: 25px;
+    }
+    }
+
