@@ -1,0 +1,200 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: rgb(4, 28, 69);
+    background-image: url(https://thumbs.dreamstime.com/b/assorted-fresh-ripe-fruit-red-yellow-purple-green-vegetables-mixed-selection-various-top-view-vegetables-fruits-background-163248178.jpg);
+    background-size: cover;
+    background-position: center;
+}
+input:focus
+{
+    outline: none;
+}
+
+/* Cars Inform css */
+
+.img-card>img {
+    max-width: 100%; 
+    height: auto; 
+  }
+
+  .overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-80%, -40%);
+    text-align: center;
+  }
+
+  .overlay-content h1 {
+    color: #fff;
+  }
+
+  /* Cards Prodect Css */
+
+
+.prodect-text
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.prodect-text span
+{
+    cursor: pointer;
+}
+
+
+.all-cards {
+    display: flex;
+}
+
+.box {
+    width: 255px;
+    height: 38vw;
+    margin: 23px auto;
+    box-shadow: 0px 0px 15px 0px #D6D6D6;
+    /* overflow: hidden; */
+    overflow:hidden;
+}
+
+.in-box {
+    height: 240px;
+    position: relative;
+}
+
+.New-prodect {
+    background-color: #fc636b;
+    color: #fff;
+    left: 0;
+    padding: 0 10px 1px;
+    position: absolute;
+    top: 0;
+}
+
+.Q-btn {
+    text-align: center;
+    background-color: #000;
+    color: white;
+    width: 100%;
+    height: 28px;
+    line-height: 25px;
+    border: 1px solid black;
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    left: 0%;
+    transition: 0.6s;
+}
+
+.in-box:hover .Q-btn {
+    opacity: 1;
+    top: 87%;
+    transition: 0.6s;
+    border: none;
+}
+
+.Q-btn:hover {
+    background-color: #2fdab8;
+    cursor: pointer
+}
+
+.info-shirt {
+    text-align: center;
+    margin: 20px 0 0;
+}
+
+.info-shirt h4 a {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.shirt-edit-price {
+    margin-top: 15px;
+}
+
+.info-shirt span {
+    color: #000;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.info-shirt del {
+    color: #908e8e;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+.info-shirt meter
+{
+
+    width: 200px;
+}
+
+.Add-card {
+    width: 72%;
+    height: 25px;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    background-color: #2fdab8;
+    outline: 2px solid #2fdab8;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.Add-card:hover {
+    outline-offset: 3px;
+    transition: 0.4s;
+}
+
+.in-box img {
+    height: inherit;
+    transition: all 0.5s ease-out 0s;
+    padding: 40px 40px 20px;
+}
+
+.in-box>img:hover {
+
+    transform: scaleX(-1);
+    transition: 2s;
+}
+
+/* Best Oferrs Page */
+.oferrs-baner
+{
+    border: 1px solid #bce8f1;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.oferrs-baner:hover
+{
+      box-shadow: 5px 6px 10px 0 rgba(0,0,0,0.2);
+    transition: 0.3s ease;
+}
+
+/* Contact-pag */
+
+.Contact-pag
+{
+    width: 100%;
+    height: 400px;
+    background-image: url(https://themepanthers.com/wp/nest/d1/wp-content/uploads/2022/02/banner-9-min.png);
+    background-size: cover;
+    background-position: 1% right;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+.privacy
+{
+    display: flex;
+    flex-wrap: wrap;
+}

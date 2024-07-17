@@ -130,17 +130,17 @@ h1
 {
     width: 5vw;
     height: 2px;
-   background-color:  black;
-   margin-left: 3vw; 
-   margin-top: 10px;   
-    transition: 1s;
+    background-color:  black;
+    margin-left: 3vw; 
+    margin-top: 10px;   
+    transition: 1s ease;
     cursor: pointer;
 }
 .xline:hover
 {
     width: 28.45vw;
     height: 2px;
-    transition: 1s;
+    /* transition: 1s; */
 }
 .text3
 {

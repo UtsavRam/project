@@ -809,7 +809,8 @@ h6
        .sixpage
        {
         width: 100%;
-        height: 80vh;
+        height: 80%;
+        display: none;
         margin-top: 2vw;
 
        }
@@ -969,9 +970,10 @@ h6
     margin-left: 75vw;
     position: absolute;
     width: 22vw;
-    height: 70vh;
+    height: 70%;
     box-shadow: 1px 1px 10px black;
     background-color: white;
+    display: none;
 }
 .box20 p
 {
@@ -1027,7 +1029,7 @@ h6
 .sevenpage
 {
     width: 100%;
-    height: 50vh;
+    height: 55%;
     background-color: white;
 }
 /* ...............................box21.............................. */
@@ -1038,14 +1040,14 @@ h6
 .box21text p
 {
     margin-top: 20px;
-    font-size: 2vw;
+    font-size: 2em;
     font-weight: 900;
 }
 .box21text a
 {
     text-decoration: none;
     padding-top: 35px;
-    padding-left: 15px;
+    /* padding-left: 15px; */
     color: rgb(97, 212, 251);
 }
 .box21text a:hover
@@ -1057,9 +1059,15 @@ h6
 {
    margin-top: 25px;
 }
+.box21allimg
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 .box21allimg img
 {
-    margin-left: 25px;
+    margin-left: 5px;
 }
     /* ...................................Eight page ............................. */
     .Eightpage
